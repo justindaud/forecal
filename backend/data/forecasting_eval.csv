@@ -1,0 +1,17 @@
+Room Type,Target,Metric,Value
+Overall,ARR,MAPE,0.00
+Overall,ARR,MAE,0
+Overall,Occupancy,MAPE,0.00
+Overall,Occupancy,MAE,0.0000
+Deluxe,ARR,MAPE,0.0
+Deluxe,ARR,MAE,0
+Deluxe,ARR,Count,609
+Executive Suite,ARR,MAPE,0.0
+Executive Suite,ARR,MAE,0
+Executive Suite,ARR,Count,609
+Suite,ARR,MAPE,0.0
+Suite,ARR,MAE,0
+Suite,ARR,Count,250
+Family Suite,ARR,MAPE,0.0
+Family Suite,ARR,MAE,0
+Family Suite,ARR,Count,73

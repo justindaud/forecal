@@ -1,0 +1,362 @@
+Room_Number,Room_Type,Reason,From_Date,To_Date,Release_Date,UID,Duration_Days,Maintenance_Category,Year,Month,Year_Month
+05A01,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05A01,Deluxe,plafon,2024-02-27,2024-03-04,2024-03-05,14,7.0,Plumbing/Leak,2024.0,2.0,2024-02
+05A01,Deluxe,rembes,2024-03-05,2024-03-10,2024-03-11,"14 ""Room Number",6.0,Plumbing/Leak,2024.0,3.0,2024-03
+05A01,Deluxe,project,2024-03-11,2024-03-17,2024-03-18,14,7.0,General Maintenance,2024.0,3.0,2024-03
+05A01,Deluxe,ac bocor,2024-06-29,2024-07-01,2024-07-02,15,3.0,AC Issues,2024.0,6.0,2024-06
+05A01,Deluxe,Ac rembes,2024-07-02,2024-07-05,2024-07-06,14,4.0,AC Issues,2024.0,7.0,2024-07
+05A01,Deluxe,ac bocor,2024-10-12,2024-10-15,2024-10-16,15,4.0,AC Issues,2024.0,10.0,2024-10
+05A02,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05A02,Deluxe,Plafon rembea di bawah AC,2024-08-22,2024-08-24,2024-08-25,38,3.0,AC Issues,2024.0,8.0,2024-08
+05A02,Deluxe,shampoo daybed,2025-08-19,2025-08-19,2025-08-20,"38 ""Room Number",1.0,Furniture/Cleaning,2025.0,8.0,2025-08
+05A03,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05A03,Deluxe,Ac rembes,2024-06-12,2024-06-15,2024-06-16,14,4.0,AC Issues,2024.0,6.0,2024-06
+05A05,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05A05,Deluxe,Ac rembes,2024-02-15,2024-02-18,2024-02-19,14,4.0,AC Issues,2024.0,2.0,2024-02
+05A05,Deluxe,Ac rembes,2024-07-07,2024-07-09,2024-07-10,14,3.0,AC Issues,2024.0,7.0,2024-07
+05A05,Deluxe,ac netes,2024-10-26,2024-10-28,2024-10-29,"15 ""Room Number",3.0,AC Issues,2024.0,10.0,2024-10
+05A05,Deluxe,plafon rembes atas almari,2024-12-05,2024-12-06,2024-12-07,38,2.0,Plumbing/Leak,2024.0,12.0,2024-12
+05A06,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05A06,Deluxe,"sofa butuh di spotting,karna ada spot",2025-08-26,2025-08-26,2025-08-27,38,1.0,Furniture/Cleaning,2025.0,8.0,2025-08
+05A07,Deluxe,ac bocor,2024-01-07,2024-01-09,2024-01-10,15,3.0,AC Issues,2024.0,1.0,2024-01
+05A07,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05A07,Deluxe,maintenance,2024-02-10,2024-02-14,2024-02-15,15,5.0,General Maintenance,2024.0,2.0,2024-02
+05A09,Deluxe,ac ke timer,2024-01-08,2024-01-09,2024-01-10,15,2.0,AC Issues,2024.0,1.0,2024-01
+05A09,Deluxe,project,2024-02-03,2024-02-05,2024-02-06,13,3.0,General Maintenance,2024.0,2.0,2024-02
+05A09,Deluxe,"plafon bawah AC ,rembes",2024-06-09,2024-06-10,2024-06-11,38,2.0,AC Issues,2024.0,6.0,2024-06
+05A09,Deluxe,AC 3/4 mati,2024-09-21,2024-09-21,2024-09-22,15,1.0,AC Issues,2024.0,9.0,2024-09
+05A09,Deluxe,ac trouble,2024-09-22,2024-09-24,2024-09-25,15,3.0,AC Issues,2024.0,9.0,2024-09
+05A10,Deluxe,Plafon kamar mandi rembes,2024-02-11,2024-02-13,2024-02-14,14,3.0,Plumbing/Leak,2024.0,2.0,2024-02
+05A10,Deluxe,mr project,2024-02-14,2024-02-29,2024-03-01,14,16.0,General Maintenance,2024.0,2.0,2024-02
+05A10,Deluxe,maintenance bed habis kena ompol,2025-04-09,2025-04-11,2025-04-12,15,3.0,General Maintenance,2025.0,4.0,2025-04
+05A11,Deluxe,project,2024-02-19,2024-03-06,2024-03-07,14,17.0,General Maintenance,2024.0,2.0,2024-02
+05A11,Deluxe,maintenance,2024-03-07,2024-03-08,2024-03-09,15,2.0,General Maintenance,2024.0,3.0,2024-03
+05A12,Deluxe,project,2024-02-20,2024-02-29,2024-03-01,14,10.0,General Maintenance,2024.0,2.0,2024-02
+05A15,Deluxe,Project,2024-02-19,2024-02-29,2024-03-01,14,11.0,General Maintenance,2024.0,2.0,2024-02
+05A15,Deluxe,penggantian sofa,2024-09-02,2024-09-04,2024-09-05,14,3.0,Furniture/Cleaning,2024.0,9.0,2024-09
+05A15,Deluxe,perbaikan sofa,2024-09-05,2024-09-08,2024-09-09,15,4.0,Furniture/Cleaning,2024.0,9.0,2024-09
+05A16,Deluxe,project,2024-02-19,2024-02-29,2024-03-01,14,11.0,General Maintenance,2024.0,2.0,2024-02
+05A16,Deluxe,maintenance,2024-03-01,2024-03-09,2024-03-10,15,9.0,General Maintenance,2024.0,3.0,2024-03
+05A16,Deluxe,Project,2024-03-10,2024-03-16,2024-03-17,14,7.0,General Maintenance,2024.0,3.0,2024-03
+05A16,Deluxe,perbaikan sofa,2024-08-26,2024-08-30,2024-08-31,15,5.0,Furniture/Cleaning,2024.0,8.0,2024-08
+05A16,Deluxe,perbaikan sofa,2024-09-02,2024-09-08,2024-09-09,15,7.0,Furniture/Cleaning,2024.0,9.0,2024-09
+05A16,Deluxe,PERBAIKAN SOFA,2024-09-09,2024-09-12,2024-09-13,15,4.0,Furniture/Cleaning,2024.0,9.0,2024-09
+05A16,Deluxe,perbaikan sofa,2024-10-15,2024-10-17,2024-10-18,15,3.0,Furniture/Cleaning,2024.0,10.0,2024-10
+05A16,Deluxe,maintenance,2025-03-06,2025-03-08,2025-03-09,15,3.0,General Maintenance,2025.0,3.0,2025-03
+05A16,Deluxe,repaint plafon atas daybed,2025-07-21,2025-07-21,2025-07-22,38,1.0,Plumbing/Leak,2025.0,7.0,2025-07
+05B01,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05B01,Deluxe,Ac rembes,2024-08-16,2024-08-19,2024-08-20,14,4.0,AC Issues,2024.0,8.0,2024-08
+05B01,Deluxe,sofa perbaikan,2024-10-04,2024-10-07,2024-10-08,15,4.0,Furniture/Cleaning,2024.0,10.0,2024-10
+05B02,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05B02,Deluxe,Plafon bawah ac basah karna kondensasi AC,2024-08-07,2024-08-10,2024-08-11,38,4.0,AC Issues,2024.0,8.0,2024-08
+05B02,Deluxe,Perbaikan plafon bawah ac,2024-08-11,2024-08-14,2024-08-15,14,4.0,AC Issues,2024.0,8.0,2024-08
+05B02,Deluxe,ac outdoor trouble,2025-05-23,2025-05-26,2025-05-27,15,4.0,AC Issues,2025.0,5.0,2025-05
+05B02,Deluxe,ac outdoor,2025-05-27,2025-05-28,2025-05-29,15,2.0,AC Issues,2025.0,5.0,2025-05
+05B03,Deluxe,shampoing karpet dan sofa,2024-01-10,2024-01-10,2024-01-11,13,1.0,Furniture/Cleaning,2024.0,1.0,2024-01
+05B03,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,"02 ""Room Number",16.0,General Maintenance,2024.0,1.0,2024-01
+05B03,Deluxe,AC REMBES,2024-06-19,2024-06-22,2024-06-23,37,4.0,AC Issues,2024.0,6.0,2024-06
+05B03,Deluxe,maintence,2024-06-23,2024-06-24,2024-06-25,38,2.0,Other,2024.0,6.0,2024-06
+05B05,Deluxe,shampoing karpet dan sofa,2024-01-10,2024-01-10,2024-01-11,13,1.0,Furniture/Cleaning,2024.0,1.0,2024-01
+05B05,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05B06,Deluxe,shampoing karpet dan sofa,2024-01-10,2024-01-10,2024-01-11,13,1.0,Furniture/Cleaning,2024.0,1.0,2024-01
+05B06,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05B06,Deluxe,perbaikan sofa,2024-09-02,2024-09-08,2024-09-09,"15 ""Room Number",7.0,Furniture/Cleaning,2024.0,9.0,2024-09
+05B06,Deluxe,PERBAIKAN SOFA,2024-09-09,2024-09-12,2024-09-13,15,4.0,Furniture/Cleaning,2024.0,9.0,2024-09
+05B06,Deluxe,tv di perbaiki,2025-05-31,2025-06-02,2025-06-03,"15 ""Room Number",3.0,Other,2025.0,5.0,2025-05
+05B07,Deluxe,MAINTENANCE PROJECT,2024-01-16,2024-01-31,2024-02-01,02,16.0,General Maintenance,2024.0,1.0,2024-01
+05B08,Deluxe,project,2024-01-30,2024-02-11,2024-02-12,13,13.0,General Maintenance,2024.0,1.0,2024-01
+05B08,Deluxe,Project,2024-02-12,2024-02-23,2024-02-24,14,12.0,General Maintenance,2024.0,2.0,2024-02
+05B08,Deluxe,maintenance,2024-02-24,2024-02-26,2024-02-27,15,3.0,General Maintenance,2024.0,2.0,2024-02
+05B09,Deluxe,Project shampo,2024-01-12,2024-01-14,2024-01-15,14,3.0,General Maintenance,2024.0,1.0,2024-01
+05B09,Deluxe,Project,2024-01-24,2024-01-27,2024-01-28,31,4.0,General Maintenance,2024.0,1.0,2024-01
+05B09,Deluxe,project,2024-01-30,2024-02-11,2024-02-12,13,13.0,General Maintenance,2024.0,1.0,2024-01
+05B09,Deluxe,project,2024-02-12,2024-02-15,2024-02-16,13,4.0,General Maintenance,2024.0,2.0,2024-02
+05B09,Deluxe,maintenance,2024-02-16,2024-02-18,2024-02-19,15,3.0,General Maintenance,2024.0,2.0,2024-02
+05B09,Deluxe,maintenance,2024-02-19,2024-02-24,2024-02-25,15,6.0,General Maintenance,2024.0,2.0,2024-02
+05B09,Deluxe,maintenance room,2025-03-02,2025-03-06,2025-03-07,38,5.0,General Maintenance,2025.0,3.0,2025-03
+05B10,Deluxe,plafon rembes,2024-04-18,2024-04-19,2024-04-20,38,2.0,Plumbing/Leak,2024.0,4.0,2024-04
+05B10,Deluxe,"konden sasi pipa, akan di lakukan pembongkaran plafon",2024-09-30,2024-10-05,2024-10-06,37,6.0,Plumbing/Leak,2024.0,9.0,2024-09
+06A05,Deluxe,maintenance unit,2024-03-28,2024-03-31,2024-04-01,15,4.0,General Maintenance,2024.0,3.0,2024-03
+06A06,Deluxe,shampo,2024-03-17,2024-03-18,2024-03-19,14,2.0,Other,2024.0,3.0,2024-03
+06A06,Deluxe,maintenance sofa,2024-11-24,2024-11-28,2024-11-29,14,5.0,Furniture/Cleaning,2024.0,11.0,2024-11
+06A06,Deluxe,plafon kamar mandi ada rembesan dari unit atasnya,2025-08-30,2025-09-02,2025-09-03,15,4.0,Plumbing/Leak,2025.0,8.0,2025-08
+06A07,Deluxe,maintenance unit,2024-03-31,2024-04-04,2024-04-05,15,5.0,General Maintenance,2024.0,3.0,2024-03
+06A07,Deluxe,plafon rembes,2024-09-05,2024-09-07,2024-09-08,15,3.0,Plumbing/Leak,2024.0,9.0,2024-09
+06A07,Deluxe,maintenance sofa,2024-11-24,2024-11-28,2024-11-29,14,5.0,Furniture/Cleaning,2024.0,11.0,2024-11
+06A10,Deluxe,ac netes,2024-05-11,2024-05-13,2024-05-14,"15 ""Room Number",3.0,AC Issues,2024.0,5.0,2024-05
+06A10,Deluxe,plafon bawah ac rembes,2024-05-14,2024-05-16,2024-05-17,38,3.0,AC Issues,2024.0,5.0,2024-05
+06A10,Deluxe,ac rembes,2024-05-25,2024-05-26,2024-05-27,14,2.0,AC Issues,2024.0,5.0,2024-05
+06A10,Deluxe,pengecekan instalasi pipa AC,2024-05-27,2024-05-29,2024-05-30,15,3.0,AC Issues,2024.0,5.0,2024-05
+06A10,Deluxe,maintenance,2024-05-30,2024-05-31,2024-06-01,15,2.0,General Maintenance,2024.0,5.0,2024-05
+06A10,Deluxe,perbaikan sofa,2024-11-18,2024-11-20,2024-11-21,38,3.0,Furniture/Cleaning,2024.0,11.0,2024-11
+06A10,Deluxe,"Sofa,daybed akan di shampoo",2025-02-23,2025-02-23,2025-02-24,38,1.0,Furniture/Cleaning,2025.0,2.0,2025-02
+06A10,Deluxe,Akan dilakukan shampoo head board dan daybed oleh evening shift,2025-08-16,2025-08-16,2025-08-17,38,1.0,Furniture/Cleaning,2025.0,8.0,2025-08
+06A12,Deluxe,plafon ac anjlog,2024-01-12,2024-01-12,2024-01-13,"13 ""Room Number",1.0,AC Issues,2024.0,1.0,2024-01
+06A12,Deluxe,sofa,2024-10-29,2024-11-01,2024-11-02,15,4.0,Furniture/Cleaning,2024.0,10.0,2024-10
+06A12,Deluxe,maintenance dinding,2025-07-29,2025-07-31,2025-08-01,15,3.0,General Maintenance,2025.0,7.0,2025-07
+06A12,Deluxe,Akan dilakukan shampoo head board dan daybed oleh evening shift,2025-08-16,2025-08-16,2025-08-17,38,1.0,Furniture/Cleaning,2025.0,8.0,2025-08
+06A15,Deluxe,maintenance unit,2025-04-15,2025-04-17,2025-04-18,15,3.0,General Maintenance,2025.0,4.0,2025-04
+06A16,Deluxe,project,2024-03-13,2024-03-20,2024-03-21,14,8.0,General Maintenance,2024.0,3.0,2024-03
+06A16,Deluxe,shampo,2024-03-23,2024-03-25,2024-03-26,14,3.0,Other,2024.0,3.0,2024-03
+06B01,Deluxe,shampo,2024-03-16,2024-03-18,2024-03-19,14,3.0,Other,2024.0,3.0,2024-03
+06B01,Deluxe,maintenance,2024-03-26,2024-03-29,2024-03-30,15,4.0,General Maintenance,2024.0,3.0,2024-03
+06B01,Deluxe,maintenance unit,2025-05-05,2025-05-07,2025-05-08,15,3.0,General Maintenance,2025.0,5.0,2025-05
+06B03,Deluxe,ac netes,2024-03-15,2024-03-18,2024-03-19,15,4.0,AC Issues,2024.0,3.0,2024-03
+06B03,Deluxe,maintenance,2024-03-22,2024-03-24,2024-03-25,"15 ""Room Number",3.0,General Maintenance,2024.0,3.0,2024-03
+06B03,Deluxe,pipa pembuangan ac rembes ke plafon,2024-06-03,2024-06-05,2024-06-06,14,3.0,AC Issues,2024.0,6.0,2024-06
+06B03,Deluxe,ac netes dan perlu pengecekan elevasi pipa,2025-03-01,2025-03-03,2025-03-04,15,3.0,AC Issues,2025.0,3.0,2025-03
+06B05,Deluxe,shampo,2024-03-17,2024-03-19,2024-03-20,14,3.0,Other,2024.0,3.0,2024-03
+06B05,Deluxe,maintenance unit,2024-03-28,2024-03-31,2024-04-01,15,4.0,General Maintenance,2024.0,3.0,2024-03
+06B05,Deluxe,maintenance sofa,2024-12-02,2024-12-05,2024-12-06,14,4.0,Furniture/Cleaning,2024.0,12.0,2024-12
+06B05,Deluxe,pembongkaran instalasi water Heater,2025-04-27,2025-04-29,2025-04-30,15,3.0,Other,2025.0,4.0,2025-04
+06B16,Executive Suite,pemindahan ac kamar anak,2025-03-04,2025-03-07,2025-03-08,15,4.0,AC Issues,2025.0,3.0,2025-03
+06B16,Executive Suite,maintenance,2025-03-08,2025-03-08,2025-03-09,14,1.0,General Maintenance,2025.0,3.0,2025-03
+06B16,Executive Suite,PROJECT MAINTENANCE AC,2025-03-09,2025-03-09,2025-03-10,"38 ""Room Number",1.0,AC Issues,2025.0,3.0,2025-03
+06B16,Executive Suite,maintenance,2025-08-29,2025-08-30,2025-08-31,15,2.0,General Maintenance,2025.0,8.0,2025-08
+07A01,Deluxe,maintenance unit,2024-03-28,2024-03-31,2024-04-01,15,4.0,General Maintenance,2024.0,3.0,2024-03
+07A01,Deluxe,perbaikan sofa,2025-02-17,2025-02-21,2025-02-22,15,5.0,Furniture/Cleaning,2025.0,2.0,2025-02
+07A01,Deluxe,plafon kamar mandi rembes dan penggantian kain daybed,2025-05-14,2025-05-15,2025-05-16,38,2.0,Plumbing/Leak,2025.0,5.0,2025-05
+07A01,Deluxe,plafon kamar mandi rembes dari unit atasnya,2025-07-20,2025-07-22,2025-07-23,15,3.0,Plumbing/Leak,2025.0,7.0,2025-07
+07A05,Deluxe,bau rokok,2024-03-17,2024-03-19,2024-03-20,15,3.0,Other,2024.0,3.0,2024-03
+07A05,Deluxe,cleaning ac,2024-03-20,2024-03-21,2024-03-22,14,2.0,AC Issues,2024.0,3.0,2024-03
+07A05,Deluxe,maintenance,2024-03-22,2024-03-24,2024-03-25,15,3.0,General Maintenance,2024.0,3.0,2024-03
+07A05,Deluxe,maintenance,2024-03-25,2024-03-27,2024-03-28,15,3.0,General Maintenance,2024.0,3.0,2024-03
+07A05,Deluxe,Plafon bawah ac rembes,2024-06-23,2024-06-25,2024-06-26,14,3.0,AC Issues,2024.0,6.0,2024-06
+07A05,Deluxe,plafon atas bed rembes,2024-09-18,2024-09-20,2024-09-21,38,3.0,Plumbing/Leak,2024.0,9.0,2024-09
+07A05,Deluxe,perbaikan sofa,2025-02-17,2025-02-21,2025-02-22,15,5.0,Furniture/Cleaning,2025.0,2.0,2025-02
+07A05,Deluxe,maintenance HK,2025-08-17,2025-08-18,2025-08-19,15,2.0,General Maintenance,2025.0,8.0,2025-08
+07A07,Deluxe,GC,2024-01-19,2024-01-21,2024-01-22,13,3.0,Other,2024.0,1.0,2024-01
+07A07,Deluxe,project,2024-01-24,2024-01-27,2024-01-28,31,4.0,General Maintenance,2024.0,1.0,2024-01
+07A07,Deluxe,Project,2024-01-28,2024-01-30,2024-01-31,14,3.0,General Maintenance,2024.0,1.0,2024-01
+07A07,Deluxe,SHAMPO,2024-03-12,2024-03-14,2024-03-15,14,3.0,Other,2024.0,3.0,2024-03
+07A07,Deluxe,penggantian water heater,2024-07-02,2024-07-03,2024-07-04,15,2.0,Other,2024.0,7.0,2024-07
+07A07,Deluxe,penggantian daybed,2025-05-12,2025-05-13,2025-05-14,15,2.0,Other,2025.0,5.0,2025-05
+07A08,Deluxe,Project,2024-01-17,2024-01-17,2024-01-18,13,1.0,General Maintenance,2024.0,1.0,2024-01
+07A08,Deluxe,perbaikan unit,2024-01-20,2024-01-23,2024-01-24,13,4.0,Other,2024.0,1.0,2024-01
+07A08,Deluxe,Project shampo,2024-02-08,2024-02-07,2024-02-09,14,0.0,General Maintenance,2024.0,2.0,2024-02
+07A08,Deluxe,SHAMPO,2024-03-12,2024-03-14,2024-03-15,14,3.0,Other,2024.0,3.0,2024-03
+07A08,Deluxe,penyimpanan maintenance,2024-03-15,2024-03-16,2024-03-17,15,2.0,General Maintenance,2024.0,3.0,2024-03
+07A08,Deluxe,rembes plafon shower,2024-08-20,2024-08-22,2024-08-23,15,3.0,Plumbing/Leak,2024.0,8.0,2024-08
+07A08,Deluxe,plafon kamar mandi bocor dari unit atasnya,2025-03-06,2025-03-10,2025-03-11,15,5.0,Plumbing/Leak,2025.0,3.0,2025-03
+07A08,Deluxe,maintenance unit,2025-04-15,2025-04-17,2025-04-18,15,3.0,General Maintenance,2025.0,4.0,2025-04
+07A09,Deluxe,maintenance,2024-05-04,2024-05-07,2024-05-08,15,4.0,General Maintenance,2024.0,5.0,2024-05
+07A09,Deluxe,ac rembes,2024-10-04,2024-10-05,2024-10-06,15,2.0,AC Issues,2024.0,10.0,2024-10
+07A09,Deluxe,ac bocor,2024-10-06,2024-10-08,2024-10-09,15,3.0,AC Issues,2024.0,10.0,2024-10
+07A09,Deluxe,"Plafon bawah AC basah,AC menetes",2025-01-29,2025-02-01,2025-02-02,38,4.0,AC Issues,2025.0,1.0,2025-01
+07A09,Deluxe,maintenance HK,2025-08-17,2025-08-18,2025-08-19,15,2.0,General Maintenance,2025.0,8.0,2025-08
+07A10,Deluxe,ceiling bathroom leaking,2024-01-03,2024-01-04,2024-01-05,13,2.0,Plumbing/Leak,2024.0,1.0,2024-01
+07A10,Deluxe,bau rokok dan ac rembes,2024-02-25,2024-02-26,2024-02-27,14,2.0,AC Issues,2024.0,2.0,2024-02
+07A10,Deluxe,Project team pak sudi,2024-04-22,2024-04-27,2024-04-28,14,6.0,General Maintenance,2024.0,4.0,2024-04
+07A10,Deluxe,maintenance,2024-04-28,2024-04-29,2024-04-30,15,2.0,General Maintenance,2024.0,4.0,2024-04
+07A10,Deluxe,"Plafon Atas kulkas rembes,dari 8A10",2024-11-11,2024-11-12,2024-11-13,38,2.0,Plumbing/Leak,2024.0,11.0,2024-11
+07A10,Deluxe,meja oval pecah,2025-03-02,2025-03-04,2025-03-05,15,3.0,Other,2025.0,3.0,2025-03
+07A10,Deluxe,meja oval pecah,2025-03-05,2025-03-08,2025-03-09,15,4.0,Other,2025.0,3.0,2025-03
+07A10,Deluxe,PROJECT MAINTENANCE AC,2025-03-09,2025-03-09,2025-03-10,38,1.0,AC Issues,2025.0,3.0,2025-03
+07A11,Deluxe,Plafon rembes,2024-01-10,2024-01-12,2024-01-13,14,3.0,Plumbing/Leak,2024.0,1.0,2024-01
+07A11,Deluxe,GC,2024-01-19,2024-01-21,2024-01-22,13,3.0,Other,2024.0,1.0,2024-01
+07A11,Deluxe,Maintainent Project,2024-01-22,2024-01-22,2024-01-23,31,1.0,General Maintenance,2024.0,1.0,2024-01
+07A11,Deluxe,rembes dari atas,2024-01-23,2024-01-25,2024-01-26,15,3.0,Plumbing/Leak,2024.0,1.0,2024-01
+07A11,Deluxe,project,2024-01-26,2024-01-28,2024-01-29,13,3.0,General Maintenance,2024.0,1.0,2024-01
+07A11,Deluxe,rembes,2024-01-29,2024-01-31,2024-02-01,15,3.0,Plumbing/Leak,2024.0,1.0,2024-01
+07A11,Deluxe,project vinil,2024-02-01,2024-02-01,2024-02-02,02,1.0,General Maintenance,2024.0,2.0,2024-02
+07A11,Deluxe,PROJECT JAMUR,2024-02-02,2024-02-03,2024-02-04,02,2.0,General Maintenance,2024.0,2.0,2024-02
+07A11,Deluxe,ac rembes,2024-03-06,2024-03-08,2024-03-09,14,3.0,AC Issues,2024.0,3.0,2024-03
+07A11,Deluxe,maintenance unit,2024-03-27,2024-03-29,2024-03-30,15,3.0,General Maintenance,2024.0,3.0,2024-03
+07A11,Deluxe,ac netes,2024-08-04,2024-08-07,2024-08-08,15,4.0,AC Issues,2024.0,8.0,2024-08
+07A11,Deluxe,plafon spot dan wall retak,2024-11-16,2024-11-18,2024-11-19,37,3.0,Plumbing/Leak,2024.0,11.0,2024-11
+07A11,Deluxe,Interior berjamur,2025-02-09,2025-02-13,2025-02-14,"14 ""Room Number",5.0,Other,2025.0,2.0,2025-02
+07A15,Executive Suite,General cleaning after long stay,2024-09-27,2024-10-04,2024-10-05,14,8.0,Furniture/Cleaning,2024.0,9.0,2024-09
+07A15,Executive Suite,maintenance,2024-10-05,2024-10-08,2024-10-09,15,4.0,General Maintenance,2024.0,10.0,2024-10
+07A15,Executive Suite,maintenance,2024-10-09,2024-10-12,2024-10-13,15,4.0,General Maintenance,2024.0,10.0,2024-10
+07A15,Executive Suite,maintenance room,2024-10-14,2024-10-18,2024-10-19,15,5.0,General Maintenance,2024.0,10.0,2024-10
+07A15,Executive Suite,Project,2024-10-19,2024-10-26,2024-10-27,14,8.0,General Maintenance,2024.0,10.0,2024-10
+07A15,Executive Suite,minus pillow,2024-10-27,2024-10-28,2024-10-29,15,2.0,Other,2024.0,10.0,2024-10
+07A15,Executive Suite,"TV kamar utama,perlu perbaikan ke toko ... karna backlight",2025-04-19,2025-04-23,2025-04-24,38,5.0,AC Issues,2025.0,4.0,2025-04
+07B03,Deluxe,Project tembok,2024-01-30,2024-02-01,2024-02-02,14,3.0,General Maintenance,2024.0,1.0,2024-01
+07B03,Deluxe,penggantian kaca bathroom,2024-04-01,2024-04-04,2024-04-05,15,4.0,AC Issues,2024.0,4.0,2024-04
+07B03,Deluxe,perbaikan sofa,2025-03-03,2025-03-06,2025-03-07,38,4.0,Furniture/Cleaning,2025.0,3.0,2025-03
+07B03,Deluxe,pengerjaan deffect menyeluruh di area kamar,2025-07-14,2025-07-15,2025-07-16,38,2.0,Other,2025.0,7.0,2025-07
+07B05,Deluxe,maintenance unit,2024-04-01,2024-04-03,2024-04-04,15,3.0,General Maintenance,2024.0,4.0,2024-04
+07B05,Deluxe,plafon basah,2025-06-09,2025-06-11,2025-06-12,15,3.0,Plumbing/Leak,2025.0,6.0,2025-06
+07B06,Deluxe,Toilet,2024-03-15,2024-03-18,2024-03-19,14,4.0,Other,2024.0,3.0,2024-03
+07B06,Deluxe,AC Rembes,2024-04-10,2024-04-12,2024-04-13,30,3.0,AC Issues,2024.0,4.0,2024-04
+07B06,Deluxe,Ac rembes,2024-04-13,2024-04-15,2024-04-16,14,3.0,AC Issues,2024.0,4.0,2024-04
+07B06,Deluxe,ac plafon,2024-04-16,2024-04-18,2024-04-19,14,3.0,AC Issues,2024.0,4.0,2024-04
+07B06,Deluxe,Terkena dampak rembes,2024-05-28,2024-05-30,2024-05-31,14,3.0,Plumbing/Leak,2024.0,5.0,2024-05
+07B06,Deluxe,maintenance,2024-05-31,2024-06-02,2024-06-03,15,3.0,General Maintenance,2024.0,5.0,2024-05
+07B06,Deluxe,perbaikan sofa,2025-03-03,2025-03-06,2025-03-07,38,4.0,Furniture/Cleaning,2025.0,3.0,2025-03
+07B06,Deluxe,shampo bed,2025-03-09,2025-03-10,2025-03-11,14,2.0,Other,2025.0,3.0,2025-03
+07B06,Deluxe,repainting wall,2025-07-15,2025-07-16,2025-07-17,38,2.0,Other,2025.0,7.0,2025-07
+07B08,Deluxe,Plafon kamar mandi rembes,2024-01-25,2024-01-28,2024-01-29,14,4.0,Plumbing/Leak,2024.0,1.0,2024-01
+07B08,Deluxe,Plafon bathroom rembes,2024-01-29,2024-01-31,2024-02-01,14,3.0,Plumbing/Leak,2024.0,1.0,2024-01
+07B08,Deluxe,project hk,2024-02-01,2024-02-01,2024-02-02,02,1.0,General Maintenance,2024.0,2.0,2024-02
+07B08,Deluxe,project parkit,2024-02-06,2024-02-15,2024-02-16,"02 ""Room Number",10.0,General Maintenance,2024.0,2.0,2024-02
+07B08,Deluxe,maintenance,2024-02-16,2024-02-18,2024-02-19,15,3.0,General Maintenance,2024.0,2.0,2024-02
+07B08,Deluxe,maintenance,2024-02-19,2024-02-24,2024-02-25,15,6.0,General Maintenance,2024.0,2.0,2024-02
+07B08,Deluxe,project,2024-02-25,2024-02-26,2024-02-27,14,2.0,General Maintenance,2024.0,2.0,2024-02
+07B08,Deluxe,Project,2024-03-02,2024-03-09,2024-03-10,14,8.0,General Maintenance,2024.0,3.0,2024-03
+07B08,Deluxe,plafon balkon rembes,2024-05-27,2024-05-31,2024-06-01,14,5.0,Plumbing/Leak,2024.0,5.0,2024-05
+07B08,Deluxe,perbaikan sofa,2025-02-10,2025-02-14,2025-02-15,38,5.0,Furniture/Cleaning,2025.0,2.0,2025-02
+07B09,Deluxe,Ac rembes,2024-03-08,2024-03-10,2024-03-11,14,3.0,AC Issues,2024.0,3.0,2024-03
+07B09,Deluxe,project,2024-03-11,2024-03-14,2024-03-15,14,4.0,General Maintenance,2024.0,3.0,2024-03
+07B09,Deluxe,maintenance unit,2024-03-15,2024-03-20,2024-03-21,15,6.0,General Maintenance,2024.0,3.0,2024-03
+07B09,Deluxe,maintenance,2024-03-21,2024-03-23,2024-03-24,15,3.0,General Maintenance,2024.0,3.0,2024-03
+07B09,Deluxe,project,2024-03-29,2024-04-04,2024-04-05,14,7.0,General Maintenance,2024.0,3.0,2024-03
+07B09,Deluxe,Pengecekan instalasi pipa ac,2024-06-03,2024-06-05,2024-06-06,14,3.0,AC Issues,2024.0,6.0,2024-06
+07B09,Deluxe,perbaikan sofa,2025-02-10,2025-02-14,2025-02-15,38,5.0,Furniture/Cleaning,2025.0,2.0,2025-02
+07B09,Deluxe,"Shampooing bed,terkena spot ompol",2025-02-19,2025-02-20,2025-02-21,38,2.0,Furniture/Cleaning,2025.0,2.0,2025-02
+07B12,Deluxe,lantai parket perlu diganti,2024-01-25,2024-01-27,2024-01-28,14,3.0,Other,2024.0,1.0,2024-01
+07B12,Deluxe,maintenance unit,2024-03-21,2024-03-24,2024-03-25,15,4.0,General Maintenance,2024.0,3.0,2024-03
+07B12,Deluxe,maintenance project,2025-02-06,2025-02-07,2025-02-08,38,2.0,General Maintenance,2025.0,2.0,2025-02
+07B12,Deluxe,maintenance balkon,2025-08-07,2025-08-08,2025-08-09,15,2.0,General Maintenance,2025.0,8.0,2025-08
+08A06,Deluxe,ac rembes,2024-02-18,2024-02-21,2024-02-22,14,4.0,AC Issues,2024.0,2.0,2024-02
+08A06,Deluxe,team pak sudi,2024-04-18,2024-04-25,2024-04-26,14,8.0,Other,2024.0,4.0,2024-04
+08A06,Deluxe,maintenance,2024-04-26,2024-04-28,2024-04-29,15,3.0,General Maintenance,2024.0,4.0,2024-04
+08A06,Deluxe,curtain di cuci,2024-04-29,2024-04-30,2024-05-01,15,2.0,Other,2024.0,4.0,2024-04
+08A06,Deluxe,ac bocor,2024-06-03,2024-06-06,2024-06-07,15,4.0,AC Issues,2024.0,6.0,2024-06
+08A06,Deluxe,ac bocor,2024-08-08,2024-08-08,2024-08-09,"15 ""Room Number",1.0,AC Issues,2024.0,8.0,2024-08
+08A07,Deluxe,ﬁnishing plafon,2024-08-04,2024-08-06,2024-08-07,15,3.0,Plumbing/Leak,2024.0,8.0,2024-08
+08A07,Deluxe,ﬁnishing plafon bawah AC,2025-01-04,2025-01-06,2025-01-07,15,3.0,AC Issues,2025.0,1.0,2025-01
+08A09,Deluxe,maintenance,2024-06-03,2024-06-07,2024-06-08,15,5.0,General Maintenance,2024.0,6.0,2024-06
+08A09,Deluxe,maintenance,2024-06-08,2024-06-10,2024-06-11,15,3.0,General Maintenance,2024.0,6.0,2024-06
+08A09,Deluxe,Perbaikan sofa,2025-05-13,2025-05-16,2025-05-17,38,4.0,Furniture/Cleaning,2025.0,5.0,2025-05
+08A10,Deluxe,GC,2024-01-21,2024-01-21,2024-01-22,13,1.0,Other,2024.0,1.0,2024-01
+08A10,Deluxe,maintenance unit,2024-05-26,2024-05-30,2024-05-31,15,5.0,General Maintenance,2024.0,5.0,2024-05
+08A10,Deluxe,ac bocor,2024-09-01,2024-09-03,2024-09-04,15,3.0,AC Issues,2024.0,9.0,2024-09
+08A11,Deluxe,tampias,2024-02-25,2024-02-26,2024-02-27,14,2.0,Weather Related,2024.0,2.0,2024-02
+08A11,Deluxe,maintenance,2024-05-13,2024-05-17,2024-05-18,15,5.0,General Maintenance,2024.0,5.0,2024-05
+08A11,Deluxe,penggantian daybed,2025-04-21,2025-04-23,2025-04-24,14,3.0,Other,2025.0,4.0,2025-04
+08A11,Deluxe,sofa,2025-04-24,2025-04-25,2025-04-26,15,2.0,Furniture/Cleaning,2025.0,4.0,2025-04
+08A11,Deluxe,Shampo sofa,2025-04-29,2025-04-29,2025-04-30,14,1.0,Furniture/Cleaning,2025.0,4.0,2025-04
+08A11,Deluxe,Shampo sofa,2025-05-01,2025-05-03,2025-05-04,14,3.0,Furniture/Cleaning,2025.0,5.0,2025-05
+08A11,Deluxe,maintenance Exhaust fan,2025-05-12,2025-05-15,2025-05-16,15,4.0,General Maintenance,2025.0,5.0,2025-05
+08A12,Deluxe,"defect unit, pak sudi",2024-01-03,2024-01-04,2024-01-05,13,2.0,General Maintenance,2024.0,1.0,2024-01
+08A12,Deluxe,maintenance Unit,2024-01-05,2024-01-06,2024-01-07,13,2.0,General Maintenance,2024.0,1.0,2024-01
+08A12,Deluxe,shampooing karpet,2024-01-10,2024-01-10,2024-01-11,13,1.0,Furniture/Cleaning,2024.0,1.0,2024-01
+08A12,Deluxe,perbaikan list lantai,2024-01-11,2024-01-12,2024-01-13,13,2.0,Other,2024.0,1.0,2024-01
+08A12,Deluxe,"Shampo bed, daybed, kursi putih",2025-02-22,2025-02-23,2025-02-24,14,2.0,Other,2025.0,2.0,2025-02
+08A15,Deluxe,shampoo,2024-03-27,2024-03-28,2024-03-29,15,2.0,Furniture/Cleaning,2024.0,3.0,2024-03
+08A15,Deluxe,Marmer,2024-04-22,2024-04-23,2024-04-24,14,2.0,Other,2024.0,4.0,2024-04
+08A15,Deluxe,maintenance unit,2024-05-02,2024-05-07,2024-05-08,15,6.0,General Maintenance,2024.0,5.0,2024-05
+08A17,Executive Suite,project,2024-01-17,2024-01-19,2024-01-20,13,3.0,General Maintenance,2024.0,1.0,2024-01
+08A17,Executive Suite,maintenance unit,2024-04-26,2024-04-30,2024-05-01,15,5.0,General Maintenance,2024.0,4.0,2024-04
+08A17,Executive Suite,maintenance,2024-05-01,2024-05-03,2024-05-04,15,3.0,General Maintenance,2024.0,5.0,2024-05
+08B01,Deluxe,bocor dari dinding atas pintu balkon,2024-01-19,2024-01-20,2024-01-21,15,2.0,Plumbing/Leak,2024.0,1.0,2024-01
+08B01,Deluxe,bocor area pintu balkon,2024-01-21,2024-01-22,2024-01-23,15,2.0,Plumbing/Leak,2024.0,1.0,2024-01
+08B01,Deluxe,tampias,2024-01-23,2024-01-25,2024-01-26,15,3.0,Weather Related,2024.0,1.0,2024-01
+08B01,Deluxe,tampias,2024-01-26,2024-01-31,2024-02-01,14,6.0,Weather Related,2024.0,1.0,2024-01
+08B01,Deluxe,maintenance unit dengan tram pak sudy,2024-08-12,2024-08-19,2024-08-20,15,8.0,General Maintenance,2024.0,8.0,2024-08
+08B01,Deluxe,maintenance,2024-08-20,2024-08-22,2024-08-23,15,3.0,General Maintenance,2024.0,8.0,2024-08
+08B01,Deluxe,maintenance team project,2025-05-17,2025-05-18,2025-05-19,14,2.0,General Maintenance,2025.0,5.0,2025-05
+08B03,Deluxe,ac netes,2024-02-11,2024-02-12,2024-02-13,15,2.0,AC Issues,2024.0,2.0,2024-02
+08B03,Deluxe,perbaikan instalasi pipa ac,2024-02-13,2024-02-15,2024-02-16,15,3.0,AC Issues,2024.0,2.0,2024-02
+08B03,Deluxe,maintenance,2024-02-16,2024-02-19,2024-02-20,15,4.0,General Maintenance,2024.0,2.0,2024-02
+08B03,Deluxe,maintenance,2024-02-20,2024-02-23,2024-02-24,15,4.0,General Maintenance,2024.0,2.0,2024-02
+08B03,Deluxe,maintenance,2024-02-24,2024-02-26,2024-02-27,15,3.0,General Maintenance,2024.0,2.0,2024-02
+08B03,Deluxe,maintenance,2025-01-11,2025-01-13,2025-01-14,15,3.0,General Maintenance,2025.0,1.0,2025-01
+08B03,Deluxe,"Freon AC habis,bisa di follow up enggenering besok senin 16 juni 2025",2025-06-15,2025-06-16,2025-06-17,38,2.0,AC Issues,2025.0,6.0,2025-06
+08B03,Deluxe,Pembongkaran pipa AC dan penambahan freon,2025-06-17,2025-06-18,2025-06-19,38,2.0,AC Issues,2025.0,6.0,2025-06
+08B05,Deluxe,ac netes,2024-02-17,2024-02-19,2024-02-20,15,3.0,AC Issues,2024.0,2.0,2024-02
+08B05,Deluxe,maintenance,2024-02-20,2024-02-22,2024-02-23,15,3.0,General Maintenance,2024.0,2.0,2024-02
+08B05,Deluxe,Ac rembes,2024-06-12,2024-06-15,2024-06-16,14,4.0,AC Issues,2024.0,6.0,2024-06
+08B05,Deluxe,maintenance,2024-06-16,2024-06-18,2024-06-19,15,3.0,General Maintenance,2024.0,6.0,2024-06
+08B05,Deluxe,Project,2024-06-19,2024-06-22,2024-06-23,14,4.0,General Maintenance,2024.0,6.0,2024-06
+08B05,Deluxe,kamar akan di project after longstay,2025-01-18,2025-01-20,2025-01-21,38,3.0,General Maintenance,2025.0,1.0,2025-01
+08B05,Deluxe,project shampo,2025-03-10,2025-03-11,2025-03-12,38,2.0,General Maintenance,2025.0,3.0,2025-03
+08B05,Deluxe,ac kondensasi,2025-03-17,2025-03-18,2025-03-19,15,2.0,AC Issues,2025.0,3.0,2025-03
+08B06,Deluxe,Ooo project,2024-05-28,2024-06-03,2024-06-04,14,7.0,General Maintenance,2024.0,5.0,2024-05
+08B06,Deluxe,"marmer wastafel kamar mandi kendor,akan lepas",2025-08-05,2025-08-06,2025-08-07,38,2.0,Other,2025.0,8.0,2025-08
+08B08,Deluxe,DEFECT MAINTENANCE,2024-01-08,2024-01-11,2024-01-12,15,4.0,General Maintenance,2024.0,1.0,2024-01
+08B08,Deluxe,maintenance unit,2024-01-12,2024-01-14,2024-01-15,15,3.0,General Maintenance,2024.0,1.0,2024-01
+08B08,Deluxe,shampoo,2024-03-27,2024-03-28,2024-03-29,15,2.0,Furniture/Cleaning,2024.0,3.0,2024-03
+08B08,Deluxe,sofa perbaikan,2025-04-12,2025-04-18,2025-04-19,15,7.0,Furniture/Cleaning,2025.0,4.0,2025-04
+08B10,Deluxe,maintenance unit,2024-05-04,2024-05-07,2024-05-08,15,4.0,General Maintenance,2024.0,5.0,2024-05
+08B10,Deluxe,ac bocor,2025-02-02,2025-02-02,2025-02-03,15,1.0,AC Issues,2025.0,2.0,2025-02
+08B12,Deluxe,maintenance,2024-05-13,2024-05-17,2024-05-18,15,5.0,General Maintenance,2024.0,5.0,2024-05
+08B12,Deluxe,Maintance room,2024-11-18,2024-11-20,2024-11-21,38,3.0,Other,2024.0,11.0,2024-11
+08B12,Deluxe,perbaikan sofa,2025-05-06,2025-05-07,2025-05-08,15,2.0,Furniture/Cleaning,2025.0,5.0,2025-05
+08B12,Deluxe,Perbaikan sofa,2025-05-13,2025-05-16,2025-05-17,38,4.0,Furniture/Cleaning,2025.0,5.0,2025-05
+08B15,Deluxe,maintenance,2024-06-03,2024-06-07,2024-06-08,15,5.0,General Maintenance,2024.0,6.0,2024-06
+08B15,Deluxe,maintenance,2024-06-08,2024-06-10,2024-06-11,"15 ""Room Number",3.0,General Maintenance,2024.0,6.0,2024-06
+08B15,Deluxe,maintenance,2024-06-11,2024-06-13,2024-06-14,15,3.0,General Maintenance,2024.0,6.0,2024-06
+08B15,Deluxe,project,2024-06-14,2024-06-15,2024-06-16,38,2.0,General Maintenance,2024.0,6.0,2024-06
+08B15,Deluxe,perbaikan sofa,2025-04-22,2025-04-25,2025-04-26,"15 ""Room Number",4.0,Furniture/Cleaning,2025.0,4.0,2025-04
+08B15,Deluxe,Shampo sofa,2025-04-29,2025-04-30,2025-05-01,14,2.0,Furniture/Cleaning,2025.0,4.0,2025-04
+08B15,Deluxe,perbaikan sofa,2025-05-06,2025-05-08,2025-05-09,15,3.0,Furniture/Cleaning,2025.0,5.0,2025-05
+08B16,Executive Suite,pemindahan ac kamar anak,2025-03-04,2025-03-07,2025-03-08,15,4.0,AC Issues,2025.0,3.0,2025-03
+08B16,Executive Suite,Maintenance,2025-03-08,2025-03-15,2025-03-16,14,8.0,General Maintenance,2025.0,3.0,2025-03
+17A01,Executive Suite,tampias hujan,2024-01-21,2024-01-23,2024-01-24,"15 ""Room Number",3.0,Weather Related,2024.0,1.0,2024-01
+17A01,Executive Suite,tampias,2024-02-25,2024-02-26,2024-02-27,14,2.0,Weather Related,2024.0,2.0,2024-02
+17A01,Executive Suite,plafon ﬂek,2024-04-12,2024-04-13,2024-04-14,15,2.0,Plumbing/Leak,2024.0,4.0,2024-04
+17A01,Executive Suite,maintenance,2024-11-12,2024-11-14,2024-11-15,15,3.0,General Maintenance,2024.0,11.0,2024-11
+17A02,Executive Suite,tampias,2024-02-24,2024-02-26,2024-02-27,15,3.0,Weather Related,2024.0,2.0,2024-02
+17A02,Executive Suite,SHAMPO,2024-03-05,2024-03-06,2024-03-07,14,2.0,Other,2024.0,3.0,2024-03
+17A02,Executive Suite,plafon bocor,2024-09-08,2024-09-10,2024-09-11,15,3.0,Plumbing/Leak,2024.0,9.0,2024-09
+17A05L,Deluxe,maintenance pipa,2024-02-20,2024-02-20,2024-02-21,15,1.0,General Maintenance,2024.0,2.0,2024-02
+17A05L,Deluxe,maintenance,2024-02-21,2024-02-21,2024-02-22,15,1.0,General Maintenance,2024.0,2.0,2024-02
+17A05L,Deluxe,ac netes,2024-04-22,2024-04-23,2024-04-24,15,2.0,AC Issues,2024.0,4.0,2024-04
+17A05L,Deluxe,maintenance wall retak,2024-09-17,2024-09-19,2024-09-20,37,3.0,General Maintenance,2024.0,9.0,2024-09
+17A05L,Deluxe,sofa perbaikan,2025-03-16,2025-03-22,2025-03-23,15,7.0,Furniture/Cleaning,2025.0,3.0,2025-03
+17A05L,Deluxe,sofa belum kembali,2025-03-23,2025-03-24,2025-03-25,15,2.0,Furniture/Cleaning,2025.0,3.0,2025-03
+17A05L,Deluxe,penggantian kran,2025-05-07,2025-05-08,2025-05-09,38,2.0,Other,2025.0,5.0,2025-05
+17A05R,Deluxe,ac rembes,2025-02-04,2025-02-06,2025-02-07,15,3.0,AC Issues,2025.0,2.0,2025-02
+17A05R,Deluxe,penggantian kran,2025-05-07,2025-05-08,2025-05-09,38,2.0,Other,2025.0,5.0,2025-05
+17A06,Family Suite,kamar kurang lengkap,2024-02-11,2024-02-12,2024-02-13,15,2.0,Other,2024.0,2.0,2024-02
+17A06,Family Suite,tampias,2024-02-24,2024-02-26,2024-02-27,15,3.0,Weather Related,2024.0,2.0,2024-02
+17A06,Family Suite,perbaikan dinding dan plafon retak,2024-07-16,2024-07-17,2024-07-18,37,2.0,Plumbing/Leak,2024.0,7.0,2024-07
+17A07,Suite,plafon area daybed ada bekas rembesan dari unit atasnya,2024-01-06,2024-01-09,2024-01-10,13,4.0,Plumbing/Leak,2024.0,1.0,2024-01
+17A07,Suite,ada rembesan area daybed,2024-01-10,2024-01-12,2024-01-13,13,3.0,Plumbing/Leak,2024.0,1.0,2024-01
+17A07,Suite,tampias,2024-02-24,2024-02-26,2024-02-27,15,3.0,Weather Related,2024.0,2.0,2024-02
+17A07,Suite,maintenance unit,2024-11-26,2024-11-27,2024-11-28,15,2.0,General Maintenance,2024.0,11.0,2024-11
+17B02L,Deluxe,roda balkon seret,2024-01-06,2024-01-08,2024-01-09,13,3.0,Other,2024.0,1.0,2024-01
+17B02L,Deluxe,PEngecekan kelistrikan,2024-04-16,2024-04-16,2024-04-17,14,1.0,Other,2024.0,4.0,2024-04
+17B02L,Deluxe,Kurang linen ss & dvs,2024-08-25,2024-08-26,2024-08-27,14,2.0,Other,2024.0,8.0,2024-08
+17B02R,Deluxe,kloset rembes,2024-04-29,2024-05-01,2024-05-02,15,3.0,Plumbing/Leak,2024.0,4.0,2024-04
+17B03L,Deluxe,ac timer,2024-03-27,2024-03-29,2024-03-30,15,3.0,AC Issues,2024.0,3.0,2024-03
+17B03L,Deluxe,Bau pesing,2024-04-16,2024-04-17,2024-04-18,"14 ""Room Number",2.0,Other,2024.0,4.0,2024-04
+17B03L,Deluxe,pengecekan pipa instalasi ac,2024-04-25,2024-04-28,2024-04-29,15,4.0,AC Issues,2024.0,4.0,2024-04
+17B03L,Deluxe,maintenance,2024-04-29,2024-05-01,2024-05-02,15,3.0,General Maintenance,2024.0,4.0,2024-04
+17B03L,Deluxe,cleaning room,2024-05-02,2024-05-03,2024-05-04,15,2.0,Furniture/Cleaning,2024.0,5.0,2024-05
+17B03L,Deluxe,ac trouble,2024-06-14,2024-06-21,2024-06-22,14,8.0,AC Issues,2024.0,6.0,2024-06
+17B03L,Deluxe,maintenance ac,2024-06-22,2024-06-25,2024-06-26,15,4.0,AC Issues,2024.0,6.0,2024-06
+17B03L,Deluxe,perbaikan sofa,2025-04-12,2025-04-18,2025-04-19,15,7.0,Furniture/Cleaning,2025.0,4.0,2025-04
+17B03R,Deluxe,AC troble harus bongkar plavon,2024-05-12,2024-05-15,2024-05-16,37,4.0,AC Issues,2024.0,5.0,2024-05
+17B03R,Deluxe,perbaikan sofa,2024-08-12,2024-08-15,2024-08-16,15,4.0,Furniture/Cleaning,2024.0,8.0,2024-08
+17B03R,Deluxe,ganti sofa,2024-08-16,2024-08-19,2024-08-20,15,4.0,Furniture/Cleaning,2024.0,8.0,2024-08
+17B03R,Deluxe,project shampo,2025-03-10,2025-03-11,2025-03-12,38,2.0,General Maintenance,2025.0,3.0,2025-03
+17B05,Suite,untuk shampoo karpet 17A2,2024-03-03,2024-03-05,2024-03-06,15,3.0,Furniture/Cleaning,2024.0,3.0,2024-03
+17B05,Suite,pebaikan Ac dan jalur AC,2024-06-18,2024-06-18,2024-06-19,37,1.0,AC Issues,2024.0,6.0,2024-06
+17B05,Suite,AC TROUBLE,2024-06-19,2024-06-21,2024-06-22,37,3.0,AC Issues,2024.0,6.0,2024-06
+17B06L,Deluxe,maintenance area balkon,2025-05-22,2025-05-23,2025-05-24,38,2.0,General Maintenance,2025.0,5.0,2025-05
+18A01,Executive Suite,kristal counter wash basin,2024-01-11,2024-01-13,2024-01-14,13,3.0,Other,2024.0,1.0,2024-01
+18A01,Executive Suite,tampias hujan,2024-01-21,2024-01-23,2024-01-24,15,3.0,Weather Related,2024.0,1.0,2024-01
+18A01,Executive Suite,semut dari luar,2024-04-15,2024-04-16,2024-04-17,15,2.0,Other,2024.0,4.0,2024-04
+18A02L,Deluxe,kristal counter wash basin,2024-01-11,2024-01-13,2024-01-14,13,3.0,Other,2024.0,1.0,2024-01
+18A02L,Deluxe,tampias,2024-02-24,2024-02-25,2024-02-26,15,2.0,Weather Related,2024.0,2.0,2024-02
+18A02R,Deluxe,kristal counter wash basin,2024-01-11,2024-01-13,2024-01-14,13,3.0,Other,2024.0,1.0,2024-01
+18A02R,Deluxe,OOO CLEANING FLOOR,2024-04-19,2024-04-21,2024-04-22,14,3.0,Furniture/Cleaning,2024.0,4.0,2024-04
+18A03L,Deluxe,set up an kurang,2024-02-11,2024-02-12,2024-02-13,15,2.0,Other,2024.0,2.0,2024-02
+18A03L,Deluxe,tampias,2024-02-25,2024-02-26,2024-02-27,"14 ""Room Number",2.0,Weather Related,2024.0,2.0,2024-02
+18A03L,Deluxe,pipa untuk drain mampet,2024-09-16,2024-09-19,2024-09-20,15,4.0,Weather Related,2024.0,9.0,2024-09
+18A03R,Deluxe,tampias,2024-02-25,2024-02-26,2024-02-27,14,2.0,Weather Related,2024.0,2.0,2024-02
+18A05L,Executive Suite,Wastafel mampet,2024-01-01,2024-01-03,2024-01-04,14,3.0,Other,2024.0,1.0,2024-01
+18A05L,Executive Suite,meja di pinjam 18+,2024-02-23,2024-02-24,2024-02-25,15,2.0,Other,2024.0,2.0,2024-02
+18A05L,Executive Suite,DRAINASE MAMPET,2024-03-05,2024-03-05,2024-03-06,14,1.0,Weather Related,2024.0,3.0,2024-03
+18A05R,Deluxe,meja dicat ulang,2024-02-27,2024-02-29,2024-03-01,14,3.0,Other,2024.0,2.0,2024-02
+18A07,Executive Suite,"perbaikan sealant kaca, tampias",2024-01-03,2024-01-04,2024-01-05,13,2.0,AC Issues,2024.0,1.0,2024-01
+18A07,Executive Suite,ada genangan air yang mengakibatkan kebocoran di 17A7 area daybed,2024-01-06,2024-01-09,2024-01-10,13,4.0,Plumbing/Leak,2024.0,1.0,2024-01
+18A07,Executive Suite,set up an kurang,2024-02-11,2024-02-12,2024-02-13,15,2.0,Other,2024.0,2.0,2024-02
+18A07,Executive Suite,tampias,2024-02-25,2024-02-26,2024-02-27,14,2.0,Weather Related,2024.0,2.0,2024-02
+18A07,Executive Suite,tampias,2024-02-27,2024-02-28,2024-02-29,14,2.0,Weather Related,2024.0,2.0,2024-02
+18A07,Executive Suite,kulkas trouble,2024-08-08,2024-08-11,2024-08-12,15,4.0,Other,2024.0,8.0,2024-08
+18B02L,Deluxe,kristal counter wash basin,2024-01-11,2024-01-13,2024-01-14,13,3.0,Other,2024.0,1.0,2024-01
+18B02R,Deluxe,kristal counter wash basin,2024-01-11,2024-01-13,2024-01-14,13,3.0,Other,2024.0,1.0,2024-01
+18B05L,Deluxe,set up an kurang,2024-02-11,2024-02-12,2024-02-13,15,2.0,Other,2024.0,2.0,2024-02
+18B05L,Deluxe,pengecekan dinding,2024-03-11,2024-03-13,2024-03-14,15,3.0,Other,2024.0,3.0,2024-03
+18B05L,Deluxe,Kurang linen ss & dvs,2024-08-25,2024-08-26,2024-08-27,14,2.0,Other,2024.0,8.0,2024-08
+18B05L,Deluxe,perbaikan pipa water prinkle,2025-03-12,2025-03-14,2025-03-15,15,3.0,Other,2025.0,3.0,2025-03
+18B05R,Deluxe,dinding ada aliran air,2024-03-11,2024-03-13,2024-03-14,15,3.0,Other,2024.0,3.0,2024-03
+18B05R,Deluxe,perbaikan dinding,2025-03-10,2025-03-11,2025-03-12,15,2.0,Other,2025.0,3.0,2025-03
+18B05R,Deluxe,perbaikan pipa water sprinkle,2025-03-12,2025-03-14,2025-03-15,15,3.0,Other,2025.0,3.0,2025-03
+18B06L,Deluxe,Kurang linen ss & dvs,2024-08-25,2024-08-26,2024-08-27,14,2.0,Other,2024.0,8.0,2024-08
+ROOMNUMBER,Room Type,Reason,,,,UID,,Other,,,

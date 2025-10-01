@@ -1,0 +1,17 @@
+Room Type,occupancy_band,ARR_Mean,ARR_Std,Count,Holiday_Pct
+Deluxe,Low (0-40%),522062.0,67642.0,92,0.0
+Deluxe,Medium (40-60%),530281.0,59894.0,161,0.0
+Deluxe,High (60-80%),586398.0,82277.0,215,0.0
+Deluxe,Very High (80-100%),649202.0,104020.0,141,1.0
+Executive Suite,Low (0-40%),951528.0,229299.0,92,0.0
+Executive Suite,Medium (40-60%),1089391.0,233857.0,161,0.0
+Executive Suite,High (60-80%),1242203.0,249835.0,215,0.0
+Executive Suite,Very High (80-100%),1473427.0,233709.0,141,1.0
+Family Suite,Low (0-40%),3984886.0,,1,1.0
+Family Suite,Medium (40-60%),4780992.0,119287.0,4,1.0
+Family Suite,High (60-80%),3761292.0,1179665.0,22,1.0
+Family Suite,Very High (80-100%),4140797.0,679461.0,46,1.0
+Suite,Low (0-40%),868837.0,43886.0,10,0.0
+Suite,Medium (40-60%),977375.0,270545.0,48,0.0
+Suite,High (60-80%),1275461.0,547446.0,100,0.0
+Suite,Very High (80-100%),1411312.0,607203.0,92,1.0

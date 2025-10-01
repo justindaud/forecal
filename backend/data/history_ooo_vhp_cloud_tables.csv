@@ -1,0 +1,919 @@
+﻿"Room Number",Room Type,Reason,From Date,To Date,"Release Date",UID
+18A05L,"Executive Suite",Wastafel mampet,01/01/24,03/01/24,04/01/24,14
+07A10,"Deluxe Bay Window","ceiling bathroom leaking",03/01/24,04/01/24,05/01/24,13
+08A12,"Deluxe Bay Window","defect unit, pak sudi",03/01/24,04/01/24,05/01/24,13
+18A07,"Executive
+Suite","perbaikan sealant
+kaca, tampias",03/01/24,04/01/24,05/01/24,13
+08A12,"Deluxe Bay
+Window",maintenance Unit,05/01/24,06/01/24,07/01/24,13
+17B02L,"Deluxe Twin
+Balcony",roda balkon seret,06/01/24,08/01/24,09/01/24,13
+05A07,"Deluxe Bay
+Window",ac bocor,07/01/24,09/01/24,10/01/24,15
+05A09,"Deluxe Bay
+Window",ac ke timer,08/01/24,09/01/24,10/01/24,15
+18A07,"Executive Suite","ada genangan air yang mengakibatkan kebocoran di 17A7 area daybed",06/01/24,09/01/24,10/01/24,13
+17A07,Suite Room,"plafon area
+daybed ada bekas
+rembesan dari
+unit atasnya",06/01/24,09/01/24,10/01/24,13
+08A12,"Deluxe Bay
+Window","shampooing
+karpet",10/01/24,10/01/24,11/01/24,13
+05B03,"Deluxe Twin
+Balcony","shampoing karpet
+dan sofa",10/01/24,10/01/24,11/01/24,13
+05B05,"Deluxe Twin
+Balcony","shampoing karpet
+dan sofa",10/01/24,10/01/24,11/01/24,13
+05B06,"Deluxe Twin
+Balcony","shampoing karpet
+dan sofa",10/01/24,10/01/24,11/01/24,13
+08B08,"Deluxe Twin
+Balcony","DEFECT
+MAINTENANCE",08/01/24,11/01/24,12/01/24,15
+06A12,"Deluxe Bay
+Window",plafon ac anjlog,12/01/24,12/01/24,13/01/24,13
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+07A11,"Deluxe Bay
+Window",Plafon rembes,10/01/24,12/01/24,13/01/24,14
+08A12,"Deluxe Bay
+Window","perbaikan list
+lantai",11/01/24,12/01/24,13/01/24,13
+17A07,Suite Room,"ada rembesan
+area daybed",10/01/24,12/01/24,13/01/24,13
+18A02R,"Deluxe Bay
+Window","kristal counter
+wash basin",11/01/24,13/01/24,14/01/24,13
+18B02R,"Deluxe
+Balcony","kristal counter
+wash basin",11/01/24,13/01/24,14/01/24,13
+18A02L,"Deluxe Twin
+Bay Window","kristal counter
+wash basin",11/01/24,13/01/24,14/01/24,13
+18B02L,"Deluxe Twin
+Balcony","kristal counter
+wash basin",11/01/24,13/01/24,14/01/24,13
+18A01,"Executive
+Suite","kristal counter
+wash basin",11/01/24,13/01/24,14/01/24,13
+05B09,"Deluxe
+Balcony",Project shampo,12/01/24,14/01/24,15/01/24,14
+08B08,"Deluxe Twin
+Balcony",maintenance unit,12/01/24,14/01/24,15/01/24,15
+07A08,"Deluxe Twin
+Bay Window",Project,17/01/24,17/01/24,18/01/24,13
+08A17,"Executive
+Suite",project,17/01/24,19/01/24,20/01/24,13
+08B01,"Deluxe
+Balcony","bocor dari
+dinding atas pintu
+balkon",19/01/24,20/01/24,21/01/24,15
+07A11,"Deluxe Bay
+Window",GC,19/01/24,21/01/24,22/01/24,13
+08A10,"Deluxe Bay
+Window",GC,21/01/24,21/01/24,22/01/24,13
+07A07,"Deluxe Twin
+Bay Window",GC,19/01/24,21/01/24,22/01/24,13
+07A11,"Deluxe Bay
+Window","Maintainent
+Project",22/01/24,22/01/24,23/01/24,31
+08B01,"Deluxe
+Balcony","bocor area pintu
+balkon",21/01/24,22/01/24,23/01/24,15
+07A08,"Deluxe Twin
+Bay Window",perbaikan unit,20/01/24,23/01/24,24/01/24,13
+17A01,"Executive
+Suite",tampias hujan,21/01/24,23/01/24,24/01/24,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+18A01,"Executive
+Suite",tampias hujan,21/01/24,23/01/24,24/01/24,15
+07A11,"Deluxe Bay
+Window",rembes dari atas,23/01/24,25/01/24,26/01/24,15
+08B01,"Deluxe
+Balcony",tampias,23/01/24,25/01/24,26/01/24,15
+05B09,"Deluxe
+Balcony",Project,24/01/24,27/01/24,28/01/24,31
+07A07,"Deluxe Twin
+Bay Window",project,24/01/24,27/01/24,28/01/24,31
+07B12,"Deluxe Twin
+Balcony","lantai parket perlu
+diganti",25/01/24,27/01/24,28/01/24,14
+07A11,"Deluxe Bay
+Window",project,26/01/24,28/01/24,29/01/24,13
+07B08,"Deluxe Twin
+Balcony","Plafon kamar
+mandi rembes",25/01/24,28/01/24,29/01/24,14
+07A07,"Deluxe Twin
+Bay Window",Project,28/01/24,30/01/24,31/01/24,14
+05A01,"Deluxe Bay
+Window","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+05A02,"Deluxe Bay
+Window","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+05A03,"Deluxe Bay
+Window","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+05A05,"Deluxe Bay
+Window","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+05A06,"Deluxe Bay
+Window","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+05A07,"Deluxe Bay
+Window","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+07A11,"Deluxe Bay
+Window",rembes,29/01/24,31/01/24,01/02/24,15
+05B07,"Deluxe
+Balcony","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+08B01,"Deluxe
+Balcony",tampias,26/01/24,31/01/24,01/02/24,14
+05B01,"Deluxe Twin
+Balcony","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+05B02,"Deluxe Twin
+Balcony","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+05B03,"Deluxe Twin
+Balcony","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+05B05,"Deluxe Twin
+Balcony","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+05B06,"Deluxe Twin
+Balcony","MAINTENANCE
+PROJECT",16/01/24,31/01/24,01/02/24,02
+07B08,"Deluxe Twin
+Balcony","Plafon bathroom
+rembes",29/01/24,31/01/24,01/02/24,14
+07A11,"Deluxe Bay
+Window",project vinil,01/02/24,01/02/24,02/02/24,02
+07B03,"Deluxe
+Balcony",Project tembok,30/01/24,01/02/24,02/02/24,14
+07B08,"Deluxe Twin
+Balcony",project hk,01/02/24,01/02/24,02/02/24,02
+07A11,"Deluxe Bay
+Window","PROJECT
+JAMUR",02/02/24,03/02/24,04/02/24,02
+05A09,"Deluxe Bay
+Window",project,03/02/24,05/02/24,06/02/24,13
+07A08,"Deluxe Twin
+Bay Window",Project shampo,08/02/24,07/02/24,09/02/24,14
+05B08,"Deluxe
+Balcony",project,30/01/24,11/02/24,12/02/24,13
+05B09,"Deluxe
+Balcony",project,30/01/24,11/02/24,12/02/24,13
+08B03,"Deluxe
+Balcony",ac netes,11/02/24,12/02/24,13/02/24,15
+18A03L,"Deluxe Twin
+Bay Window",set up an kurang,11/02/24,12/02/24,13/02/24,15
+18B05L,"Deluxe Twin
+Balcony",set up an kurang,11/02/24,12/02/24,13/02/24,15
+18A07,"Executive
+Suite",set up an kurang,11/02/24,12/02/24,13/02/24,15
+17A06,Family Suite,"kamar kurang
+lengkap",11/02/24,12/02/24,13/02/24,15
+05A10,"Deluxe Bay
+Window","Plafon kamar
+mandi rembes",11/02/24,13/02/24,14/02/24,14
+05A07,"Deluxe Bay
+Window",maintenance,10/02/24,14/02/24,15/02/24,15
+05B09,"Deluxe
+Balcony",project,12/02/24,15/02/24,16/02/24,13
+08B03,"Deluxe
+Balcony","perbaikan
+instalasi pipa ac",13/02/24,15/02/24,16/02/24,15
+07B08,"Deluxe Twin
+Balcony",project parkit,06/02/24,15/02/24,16/02/24,02
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+05A05,"Deluxe Bay
+Window",Ac rembes,15/02/24,18/02/24,19/02/24,14
+05B09,"Deluxe
+Balcony",maintenance,16/02/24,18/02/24,19/02/24,15
+07B08,"Deluxe Twin
+Balcony",maintenance,16/02/24,18/02/24,19/02/24,15
+08B03,"Deluxe
+Balcony",maintenance,16/02/24,19/02/24,20/02/24,15
+08B05,"Deluxe
+Balcony",ac netes,17/02/24,19/02/24,20/02/24,15
+17A05L,"Deluxe Bay
+Window",maintenance pipa,20/02/24,20/02/24,21/02/24,15
+17A05L,"Deluxe Bay
+Window",maintenance,21/02/24,21/02/24,22/02/24,15
+08A06,"Deluxe Twin
+Bay Window",ac rembes,18/02/24,21/02/24,22/02/24,14
+08B05,"Deluxe
+Balcony",maintenance,20/02/24,22/02/24,23/02/24,15
+05B08,"Deluxe
+Balcony",Project,12/02/24,23/02/24,24/02/24,14
+08B03,"Deluxe
+Balcony",maintenance,20/02/24,23/02/24,24/02/24,15
+05B09,"Deluxe
+Balcony",maintenance,19/02/24,24/02/24,25/02/24,15
+07B08,"Deluxe Twin
+Balcony",maintenance,19/02/24,24/02/24,25/02/24,15
+18A05L,"Executive
+Suite","meja di pinjam
+18+",23/02/24,24/02/24,25/02/24,15
+18A02L,"Deluxe Twin
+Bay Window",tampias,24/02/24,25/02/24,26/02/24,15
+07A10,"Deluxe Bay
+Window","bau rokok dan ac
+rembes",25/02/24,26/02/24,27/02/24,14
+08A11,"Deluxe Bay
+Window",tampias,25/02/24,26/02/24,27/02/24,14
+18A03R,"Deluxe Bay
+Window",tampias,25/02/24,26/02/24,27/02/24,14
+05B08,"Deluxe
+Balcony",maintenance,24/02/24,26/02/24,27/02/24,15
+08B03,"Deluxe
+Balcony",maintenance,24/02/24,26/02/24,27/02/24,15
+18A03L,"Deluxe Twin
+Bay Window",tampias,25/02/24,26/02/24,27/02/24,14
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+07B08,"Deluxe Twin
+Balcony",project,25/02/24,26/02/24,27/02/24,14
+17A01,"Executive
+Suite",tampias,25/02/24,26/02/24,27/02/24,14
+17A02,"Executive
+Suite",tampias,24/02/24,26/02/24,27/02/24,15
+18A07,"Executive
+Suite",tampias,25/02/24,26/02/24,27/02/24,14
+17A07,Suite Room,tampias,24/02/24,26/02/24,27/02/24,15
+17A06,Family Suite,tampias,24/02/24,26/02/24,27/02/24,15
+18A07,"Executive
+Suite",tampias,27/02/24,28/02/24,29/02/24,14
+05A10,"Deluxe Bay
+Window",mr project,14/02/24,29/02/24,01/03/24,14
+05A12,"Deluxe Bay
+Window",project,20/02/24,29/02/24,01/03/24,14
+05A15,"Deluxe Bay
+Window",Project,19/02/24,29/02/24,01/03/24,14
+05A16,"Deluxe Bay
+Window",project,19/02/24,29/02/24,01/03/24,14
+18A05R,"Deluxe Twin
+Bay Window",meja dicat ulang,27/02/24,29/02/24,01/03/24,14
+05A01,"Deluxe Bay
+Window",plafon,27/02/24,04/03/24,05/03/24,14
+18A05L,"Executive
+Suite","DRAINASE
+MAMPET",05/03/24,05/03/24,06/03/24,14
+17B05,Suite Room,"untuk shampoo
+karpet 17A2",03/03/24,05/03/24,06/03/24,15
+05A11,"Deluxe Bay
+Window",project,19/02/24,06/03/24,07/03/24,14
+17A02,"Executive
+Suite",SHAMPO,05/03/24,06/03/24,07/03/24,14
+05A11,"Deluxe Bay
+Window",maintenance,07/03/24,08/03/24,09/03/24,15
+07A11,"Deluxe Bay
+Window",ac rembes,06/03/24,08/03/24,09/03/24,14
+05A16,"Deluxe Bay
+Window",maintenance,01/03/24,09/03/24,10/03/24,15
+07B08,"Deluxe Twin
+Balcony",Project,02/03/24,09/03/24,10/03/24,14
+05A01,"Deluxe Bay
+Window",rembes,05/03/24,10/03/24,11/03/24,14
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+07B09,"Deluxe Twin
+Balcony",Ac rembes,08/03/24,10/03/24,11/03/24,14
+18B05R,"Deluxe
+Balcony","dinding ada aliran
+air",11/03/24,13/03/24,14/03/24,15
+18B05L,"Deluxe Twin
+Balcony","pengecekan
+dinding",11/03/24,13/03/24,14/03/24,15
+07A07,"Deluxe Twin
+Bay Window",SHAMPO,12/03/24,14/03/24,15/03/24,14
+07A08,"Deluxe Twin
+Bay Window",SHAMPO,12/03/24,14/03/24,15/03/24,14
+07B09,"Deluxe Twin
+Balcony",project,11/03/24,14/03/24,15/03/24,14
+05A16,"Deluxe Bay
+Window",Project,10/03/24,16/03/24,17/03/24,14
+07A08,"Deluxe Twin
+Bay Window","penyimpanan
+maintenance",15/03/24,16/03/24,17/03/24,15
+05A01,"Deluxe Bay
+Window",project,11/03/24,17/03/24,18/03/24,14
+06A06,"Deluxe Bay
+Window",shampo,17/03/24,18/03/24,19/03/24,14
+06B01,"Deluxe
+Balcony",shampo,16/03/24,18/03/24,19/03/24,14
+06B03,"Deluxe
+Balcony",ac netes,15/03/24,18/03/24,19/03/24,15
+07B06,"Deluxe
+Balcony",Toilet,15/03/24,18/03/24,19/03/24,14
+07A05,"Deluxe Bay
+Window",bau rokok,17/03/24,19/03/24,20/03/24,15
+06B05,"Deluxe Twin
+Balcony",shampo,17/03/24,19/03/24,20/03/24,14
+06A16,"Deluxe Bay
+Window",project,13/03/24,20/03/24,21/03/24,14
+07B09,"Deluxe Twin
+Balcony",maintenance unit,15/03/24,20/03/24,21/03/24,15
+07A05,"Deluxe Bay
+Window",cleaning ac,20/03/24,21/03/24,22/03/24,14
+07B09,"Deluxe Twin
+Balcony",maintenance,21/03/24,23/03/24,24/03/24,15
+07A05,"Deluxe Bay
+Window",maintenance,22/03/24,24/03/24,25/03/24,15
+06B03,"Deluxe
+Balcony",maintenance,22/03/24,24/03/24,25/03/24,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+07B12,"Deluxe Twin
+Balcony",maintenance unit,21/03/24,24/03/24,25/03/24,15
+06A16,"Deluxe Bay
+Window",shampo,23/03/24,25/03/24,26/03/24,14
+07A05,"Deluxe Bay
+Window",maintenance,25/03/24,27/03/24,28/03/24,15
+08A15,"Deluxe Bay
+Window",shampoo,27/03/24,28/03/24,29/03/24,15
+08B08,"Deluxe Twin
+Balcony",shampoo,27/03/24,28/03/24,29/03/24,15
+07A11,"Deluxe Bay
+Window",maintenance unit,27/03/24,29/03/24,30/03/24,15
+06B01,"Deluxe
+Balcony",maintenance,26/03/24,29/03/24,30/03/24,15
+17B03L,"Deluxe
+Balcony",ac timer,27/03/24,29/03/24,30/03/24,15
+07A01,"Deluxe Bay
+Window",maintenance unit,28/03/24,31/03/24,01/04/24,15
+06A05,"Deluxe Twin
+Bay Window",maintenance unit,28/03/24,31/03/24,01/04/24,15
+06B05,"Deluxe Twin
+Balcony",maintenance unit,28/03/24,31/03/24,01/04/24,15
+07B05,"Deluxe Twin
+Balcony",maintenance unit,01/04/24,03/04/24,04/04/24,15
+07B03,"Deluxe
+Balcony","penggantian kaca
+bathroom",01/04/24,04/04/24,05/04/24,15
+06A07,"Deluxe Twin
+Bay Window",maintenance unit,31/03/24,04/04/24,05/04/24,15
+07B09,"Deluxe Twin
+Balcony",project,29/03/24,04/04/24,05/04/24,14
+07B06,"Deluxe
+Balcony",AC Rembes,10/04/24,12/04/24,13/04/24,30
+17A01,"Executive
+Suite",plafon ﬂek,12/04/24,13/04/24,14/04/24,15
+07B06,"Deluxe
+Balcony",Ac rembes,13/04/24,15/04/24,16/04/24,14
+17B02L,"Deluxe Twin
+Balcony","PEngecekan
+kelistrikan",16/04/24,16/04/24,17/04/24,14
+18A01,"Executive
+Suite",semut dari luar,15/04/24,16/04/24,17/04/24,15
+17B03L,"Deluxe
+Balcony",Bau pesing,16/04/24,17/04/24,18/04/24,14
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+07B06,"Deluxe
+Balcony",ac plafon,16/04/24,18/04/24,19/04/24,14
+05B10,"Deluxe
+Balcony",plafon rembes,18/04/24,19/04/24,20/04/24,38
+18A02R,"Deluxe Bay
+Window","OOO
+CLEANING
+FLOOR",19/04/24,21/04/24,22/04/24,14
+08A15,"Deluxe Bay
+Window",Marmer,22/04/24,23/04/24,24/04/24,14
+17A05L,"Deluxe Bay
+Window",ac netes,22/04/24,23/04/24,24/04/24,15
+08A06,"Deluxe Twin
+Bay Window",team pak sudi,18/04/24,25/04/24,26/04/24,14
+07A10,"Deluxe Bay
+Window","Project team pak
+sudi",22/04/24,27/04/24,28/04/24,14
+17B03L,"Deluxe
+Balcony","pengecekan pipa
+instalasi ac",25/04/24,28/04/24,29/04/24,15
+08A06,"Deluxe Twin
+Bay Window",maintenance,26/04/24,28/04/24,29/04/24,15
+07A10,"Deluxe Bay
+Window",maintenance,28/04/24,29/04/24,30/04/24,15
+08A06,"Deluxe Twin
+Bay Window",curtain di cuci,29/04/24,30/04/24,01/05/24,15
+08A17,"Executive
+Suite",maintenance unit,26/04/24,30/04/24,01/05/24,15
+17B02R,"Deluxe
+Balcony",kloset rembes,29/04/24,01/05/24,02/05/24,15
+17B03L,"Deluxe
+Balcony",maintenance,29/04/24,01/05/24,02/05/24,15
+17B03L,"Deluxe
+Balcony",cleaning room,02/05/24,03/05/24,04/05/24,15
+08A17,"Executive
+Suite",maintenance,01/05/24,03/05/24,04/05/24,15
+07A09,"Deluxe Bay
+Window",maintenance,04/05/24,07/05/24,08/05/24,15
+08A15,"Deluxe Bay
+Window",maintenance unit,02/05/24,07/05/24,08/05/24,15
+08B10,"Deluxe Twin
+Balcony",maintenance unit,04/05/24,07/05/24,08/05/24,15
+06A10,"Deluxe Bay
+Window",ac netes,11/05/24,13/05/24,14/05/24,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+17B03R,"Deluxe
+Balcony","AC troble harus
+bongkar plavon",12/05/24,15/05/24,16/05/24,37
+06A10,"Deluxe Bay
+Window","plafon bawah ac
+rembes",14/05/24,16/05/24,17/05/24,38
+08A11,"Deluxe Bay
+Window",maintenance,13/05/24,17/05/24,18/05/24,15
+08B12,"Deluxe Twin
+Balcony",maintenance,13/05/24,17/05/24,18/05/24,15
+06A10,"Deluxe Bay
+Window",ac rembes,25/05/24,26/05/24,27/05/24,14
+06A10,"Deluxe Bay
+Window","pengecekan
+instalasi pipa AC",27/05/24,29/05/24,30/05/24,15
+08A10,"Deluxe Bay
+Window",maintenance unit,26/05/24,30/05/24,31/05/24,15
+07B06,"Deluxe
+Balcony","Terkena dampak
+rembes",28/05/24,30/05/24,31/05/24,14
+06A10,"Deluxe Bay
+Window",maintenance,30/05/24,31/05/24,01/06/24,15
+07B08,"Deluxe Twin
+Balcony","plafon balkon
+rembes",27/05/24,31/05/24,01/06/24,14
+07B06,"Deluxe
+Balcony",maintenance,31/05/24,02/06/24,03/06/24,15
+08B06,"Deluxe
+Balcony",Ooo project,28/05/24,03/06/24,04/06/24,14
+06B03,"Deluxe
+Balcony","pipa pembuangan
+ac rembes ke
+plafon",03/06/24,05/06/24,06/06/24,14
+07B09,"Deluxe Twin
+Balcony","Pengecekan
+instalasi pipa ac",03/06/24,05/06/24,06/06/24,14
+08A06,"Deluxe Twin
+Bay Window",ac bocor,03/06/24,06/06/24,07/06/24,15
+08A09,"Deluxe Bay
+Window",maintenance,03/06/24,07/06/24,08/06/24,15
+08B15,"Deluxe Twin
+Balcony",maintenance,03/06/24,07/06/24,08/06/24,15
+05A09,"Deluxe Bay
+Window","plafon bawah AC
+,rembes",09/06/24,10/06/24,11/06/24,38
+08A09,"Deluxe Bay
+Window",maintenance,08/06/24,10/06/24,11/06/24,15
+08B15,"Deluxe Twin
+Balcony",maintenance,08/06/24,10/06/24,11/06/24,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+08B15,"Deluxe Twin
+Balcony",maintenance,11/06/24,13/06/24,14/06/24,15
+05A03,"Deluxe Bay
+Window",Ac rembes,12/06/24,15/06/24,16/06/24,14
+08B05,"Deluxe
+Balcony",Ac rembes,12/06/24,15/06/24,16/06/24,14
+08B15,"Deluxe Twin
+Balcony",project,14/06/24,15/06/24,16/06/24,38
+08B05,"Deluxe
+Balcony",maintenance,16/06/24,18/06/24,19/06/24,15
+17B05,Suite Room,"pebaikan Ac dan
+jalur AC",18/06/24,18/06/24,19/06/24,37
+17B03L,"Deluxe
+Balcony",ac trouble,14/06/24,21/06/24,22/06/24,14
+17B05,Suite Room,AC TROUBLE,19/06/24,21/06/24,22/06/24,37
+08B05,"Deluxe
+Balcony",Project,19/06/24,22/06/24,23/06/24,14
+05B03,"Deluxe Twin
+Balcony",AC REMBES,19/06/24,22/06/24,23/06/24,37
+05B03,"Deluxe Twin
+Balcony",maintence,23/06/24,24/06/24,25/06/24,38
+07A05,"Deluxe Bay
+Window","Plafon bawah ac
+rembes",23/06/24,25/06/24,26/06/24,14
+17B03L,"Deluxe
+Balcony",maintenance ac,22/06/24,25/06/24,26/06/24,15
+05A01,"Deluxe Bay
+Window",ac bocor,29/06/24,01/07/24,02/07/24,15
+07A07,"Deluxe Twin
+Bay Window","penggantian
+water heater",02/07/24,03/07/24,04/07/24,15
+05A01,"Deluxe Bay
+Window",Ac rembes,02/07/24,05/07/24,06/07/24,14
+05A05,"Deluxe Bay
+Window",Ac rembes,07/07/24,09/07/24,10/07/24,14
+17A06,Family Suite,"perbaikan dinding
+dan plafon retak",16/07/24,17/07/24,18/07/24,37
+08A07,"Deluxe Twin
+Bay Window",ﬁnishing plafon,04/08/24,06/08/24,07/08/24,15
+07A11,"Deluxe Bay
+Window",ac netes,04/08/24,07/08/24,08/08/24,15
+08A06,"Deluxe Twin
+Bay Window",ac bocor,08/08/24,08/08/24,09/08/24,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+05B02,"Deluxe Twin
+Balcony","Plafon bawah ac
+basah karna
+kondensasi AC",07/08/24,10/08/24,11/08/24,38
+18A07,"Executive
+Suite",kulkas trouble,08/08/24,11/08/24,12/08/24,15
+05B02,"Deluxe Twin
+Balcony","Perbaikan plafon
+bawah ac",11/08/24,14/08/24,15/08/24,14
+17B03R,"Deluxe
+Balcony",perbaikan sofa,12/08/24,15/08/24,16/08/24,15
+08B01,"Deluxe
+Balcony","maintenance unit
+dengan tram pak
+sudy",12/08/24,19/08/24,20/08/24,15
+17B03R,"Deluxe
+Balcony",ganti sofa,16/08/24,19/08/24,20/08/24,15
+05B01,"Deluxe Twin
+Balcony",Ac rembes,16/08/24,19/08/24,20/08/24,14
+08B01,"Deluxe
+Balcony",maintenance,20/08/24,22/08/24,23/08/24,15
+07A08,"Deluxe Twin
+Bay Window","rembes plafon
+shower",20/08/24,22/08/24,23/08/24,15
+05A02,"Deluxe Bay
+Window","Plafon rembea di
+bawah AC",22/08/24,24/08/24,25/08/24,38
+17B02L,"Deluxe Twin
+Balcony","Kurang linen ss &
+dvs",25/08/24,26/08/24,27/08/24,14
+18B05L,"Deluxe Twin
+Balcony","Kurang linen ss &
+dvs",25/08/24,26/08/24,27/08/24,14
+18B06L,"Deluxe Twin
+Balcony","Kurang linen ss &
+dvs",25/08/24,26/08/24,27/08/24,14
+05A16,"Deluxe Bay
+Window",perbaikan sofa,26/08/24,30/08/24,31/08/24,15
+08A10,"Deluxe Bay
+Window",ac bocor,01/09/24,03/09/24,04/09/24,15
+05A15,"Deluxe Bay
+Window",penggantian sofa,02/09/24,04/09/24,05/09/24,14
+06A07,"Deluxe Twin
+Bay Window",plafon rembes,05/09/24,07/09/24,08/09/24,15
+05A15,"Deluxe Bay
+Window",perbaikan sofa,05/09/24,08/09/24,09/09/24,15
+05A16,"Deluxe Bay
+Window",perbaikan sofa,02/09/24,08/09/24,09/09/24,15
+05B06,"Deluxe Twin
+Balcony",perbaikan sofa,02/09/24,08/09/24,09/09/24,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+17A02,"Executive
+Suite",plafon bocor,08/09/24,10/09/24,11/09/24,15
+05A16,"Deluxe Bay
+Window","PERBAIKAN
+SOFA",09/09/24,12/09/24,13/09/24,15
+05B06,"Deluxe Twin
+Balcony","PERBAIKAN
+SOFA",09/09/24,12/09/24,13/09/24,15
+17A05L,"Deluxe Bay
+Window","maintenance wall
+retak",17/09/24,19/09/24,20/09/24,37
+18A03L,"Deluxe Twin
+Bay Window","pipa untuk drain
+mampet",16/09/24,19/09/24,20/09/24,15
+07A05,"Deluxe Bay
+Window","plafon atas bed
+rembes",18/09/24,20/09/24,21/09/24,38
+05A09,"Deluxe Bay
+Window",AC 3/4 mati,21/09/24,21/09/24,22/09/24,15
+05A09,"Deluxe Bay
+Window",ac trouble,22/09/24,24/09/24,25/09/24,15
+07A15,"Executive
+Suite","General cleaning
+after long stay",27/09/24,04/10/24,05/10/24,14
+07A09,"Deluxe Bay
+Window",ac rembes,04/10/24,05/10/24,06/10/24,15
+05B10,"Deluxe
+Balcony","konden sasi pipa,
+akan di lakukan
+pembongkaran
+plafon",30/09/24,05/10/24,06/10/24,37
+05B01,"Deluxe Twin
+Balcony",sofa perbaikan,04/10/24,07/10/24,08/10/24,15
+07A09,"Deluxe Bay
+Window",ac bocor,06/10/24,08/10/24,09/10/24,15
+07A15,"Executive
+Suite",maintenance,05/10/24,08/10/24,09/10/24,15
+07A15,"Executive
+Suite",maintenance,09/10/24,12/10/24,13/10/24,15
+05A01,"Deluxe Bay
+Window",ac bocor,12/10/24,15/10/24,16/10/24,15
+05A16,"Deluxe Bay
+Window",perbaikan sofa,15/10/24,17/10/24,18/10/24,15
+07A15,"Executive
+Suite","maintenance
+room",14/10/24,18/10/24,19/10/24,15
+07A15,"Executive
+Suite",Project,19/10/24,26/10/24,27/10/24,14
+05A05,"Deluxe Bay
+Window",ac netes,26/10/24,28/10/24,29/10/24,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+07A15,"Executive
+Suite",minus pillow,27/10/24,28/10/24,29/10/24,15
+06A12,"Deluxe Bay
+Window",sofa,29/10/24,01/11/24,02/11/24,15
+07A10,"Deluxe Bay
+Window","Plafon Atas
+kulkas
+rembes,dari 8A10",11/11/24,12/11/24,13/11/24,38
+17A01,"Executive
+Suite",maintenance,12/11/24,14/11/24,15/11/24,15
+07A11,"Deluxe Bay
+Window","plafon spot dan
+wall retak",16/11/24,18/11/24,19/11/24,37
+06A10,"Deluxe Bay
+Window",perbaikan sofa,18/11/24,20/11/24,21/11/24,38
+08B12,"Deluxe Twin
+Balcony",Maintance room,18/11/24,20/11/24,21/11/24,38
+17A07,Suite Room,maintenance unit,26/11/24,27/11/24,28/11/24,15
+06A06,"Deluxe Bay
+Window",maintenance sofa,24/11/24,28/11/24,29/11/24,14
+06A07,"Deluxe Twin
+Bay Window",maintenance sofa,24/11/24,28/11/24,29/11/24,14
+06B05,"Deluxe Twin
+Balcony",maintenance sofa,02/12/24,05/12/24,06/12/24,14
+05A05,"Deluxe Bay
+Window","plafon rembes
+atas almari",05/12/24,06/12/24,07/12/24,38
+08A07,"Deluxe Twin
+Bay Window","ﬁnishing plafon
+bawah AC",04/01/25,06/01/25,07/01/25,15
+08B03,"Deluxe
+Balcony",maintenance,11/01/25,13/01/25,14/01/25,15
+08B05,"Deluxe
+Balcony","kamar akan di
+project after
+longstay",18/01/25,20/01/25,21/01/25,38
+07A09,"Deluxe Bay
+Window","Plafon bawah AC
+basah,AC
+menetes",29/01/25,01/02/25,02/02/25,38
+08B10,"Deluxe Twin
+Balcony",ac bocor,02/02/25,02/02/25,03/02/25,15
+17A05R,"Deluxe Bay
+Window",ac rembes,04/02/25,06/02/25,07/02/25,15
+07B12,"Deluxe Twin
+Balcony","maintenance
+project",06/02/25,07/02/25,08/02/25,38
+07A11,"Deluxe Bay
+Window",Interior berjamur,09/02/25,13/02/25,14/02/25,14
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+07B08,"Deluxe Twin
+Balcony",perbaikan sofa,10/02/25,14/02/25,15/02/25,38
+07B09,"Deluxe Twin
+Balcony",perbaikan sofa,10/02/25,14/02/25,15/02/25,38
+07B09,"Deluxe Twin
+Balcony","Shampooing
+bed,terkena spot
+ompol",19/02/25,20/02/25,21/02/25,38
+07A01,"Deluxe Bay
+Window",perbaikan sofa,17/02/25,21/02/25,22/02/25,15
+07A05,"Deluxe Bay
+Window",perbaikan sofa,17/02/25,21/02/25,22/02/25,15
+06A10,"Deluxe Bay
+Window","Sofa,daybed akan
+di shampoo",23/02/25,23/02/25,24/02/25,38
+08A12,"Deluxe Bay
+Window","Shampo bed,
+daybed, kursi
+putih",22/02/25,23/02/25,24/02/25,14
+06B03,"Deluxe
+Balcony","ac netes dan perlu
+pengecekan
+elevasi pipa",01/03/25,03/03/25,04/03/25,15
+07A10,"Deluxe Bay
+Window",meja oval pecah,02/03/25,04/03/25,05/03/25,15
+05B09,"Deluxe
+Balcony","maintenance
+room",02/03/25,06/03/25,07/03/25,38
+07B03,"Deluxe
+Balcony",perbaikan sofa,03/03/25,06/03/25,07/03/25,38
+07B06,"Deluxe
+Balcony",perbaikan sofa,03/03/25,06/03/25,07/03/25,38
+06B16,"Executive
+Suite","pemindahan ac
+kamar anak",04/03/25,07/03/25,08/03/25,15
+08B16,"Executive
+Suite","pemindahan ac
+kamar anak",04/03/25,07/03/25,08/03/25,15
+05A16,"Deluxe Bay
+Window",maintenance,06/03/25,08/03/25,09/03/25,15
+07A10,"Deluxe Bay
+Window",meja oval pecah,05/03/25,08/03/25,09/03/25,15
+06B16,"Executive
+Suite",maintenance,08/03/25,08/03/25,09/03/25,14
+07A10,"Deluxe Bay
+Window","PROJECT
+MAINTENANCE
+AC",09/03/25,09/03/25,10/03/25,38
+06B16,"Executive
+Suite","PROJECT
+MAINTENANCE
+AC",09/03/25,09/03/25,10/03/25,38
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+07B06,"Deluxe
+Balcony",shampo bed,09/03/25,10/03/25,11/03/25,14
+07A08,"Deluxe Twin
+Bay Window","plafon kamar
+mandi bocor dari
+unit atasnya",06/03/25,10/03/25,11/03/25,15
+08B05,"Deluxe
+Balcony",project shampo,10/03/25,11/03/25,12/03/25,38
+17B03R,"Deluxe
+Balcony",project shampo,10/03/25,11/03/25,12/03/25,38
+18B05R,"Deluxe
+Balcony",perbaikan dinding,10/03/25,11/03/25,12/03/25,15
+18B05R,"Deluxe
+Balcony","perbaikan pipa
+water sprinkle",12/03/25,14/03/25,15/03/25,15
+18B05L,"Deluxe Twin
+Balcony","perbaikan pipa
+water prinkle",12/03/25,14/03/25,15/03/25,15
+08B16,"Executive
+Suite",Maintenance,08/03/25,15/03/25,16/03/25,14
+08B05,"Deluxe
+Balcony",ac kondensasi,17/03/25,18/03/25,19/03/25,15
+17A05L,"Deluxe Bay
+Window",sofa perbaikan,16/03/25,22/03/25,23/03/25,15
+17A05L,"Deluxe Bay
+Window","sofa belum
+kembali",23/03/25,24/03/25,25/03/25,15
+05A10,"Deluxe Bay
+Window","maintenance bed
+habis kena ompol",09/04/25,11/04/25,12/04/25,15
+06A15,"Deluxe Twin
+Bay Window",maintenance unit,15/04/25,17/04/25,18/04/25,15
+07A08,"Deluxe Twin
+Bay Window",maintenance unit,15/04/25,17/04/25,18/04/25,15
+17B03L,"Deluxe
+Balcony",perbaikan sofa,12/04/25,18/04/25,19/04/25,15
+08B08,"Deluxe Twin
+Balcony",sofa perbaikan,12/04/25,18/04/25,19/04/25,15
+08A11,"Deluxe Bay
+Window","penggantian
+daybed",21/04/25,23/04/25,24/04/25,14
+07A15,"Executive
+Suite","TV kamar
+utama,perlu
+perbaikan ke toko
+... karna backlight",19/04/25,23/04/25,24/04/25,38
+08A11,"Deluxe Bay
+Window",sofa,24/04/25,25/04/25,26/04/25,15
+08B15,"Deluxe Twin
+Balcony",perbaikan sofa,22/04/25,25/04/25,26/04/25,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+08A11,"Deluxe Bay
+Window",Shampo sofa,29/04/25,29/04/25,30/04/25,14
+06B05,"Deluxe Twin
+Balcony","pembongkaran
+instalasi water
+Heater",27/04/25,29/04/25,30/04/25,15
+08B15,"Deluxe Twin
+Balcony",Shampo sofa,29/04/25,30/04/25,01/05/25,14
+08A11,"Deluxe Bay
+Window",Shampo sofa,01/05/25,03/05/25,04/05/25,14
+06B01,"Deluxe
+Balcony",maintenance unit,05/05/25,07/05/25,08/05/25,15
+08B12,"Deluxe Twin
+Balcony",perbaikan sofa,06/05/25,07/05/25,08/05/25,15
+17A05L,"Deluxe Bay
+Window",penggantian kran,07/05/25,08/05/25,09/05/25,38
+17A05R,"Deluxe Bay
+Window",penggantian kran,07/05/25,08/05/25,09/05/25,38
+08B15,"Deluxe Twin
+Balcony",perbaikan sofa,06/05/25,08/05/25,09/05/25,15
+07A07,"Deluxe Twin
+Bay Window","penggantian
+daybed",12/05/25,13/05/25,14/05/25,15
+07A01,"Deluxe Bay
+Window","plafon kamar
+mandi rembes dan
+penggantian kain
+daybed",14/05/25,15/05/25,16/05/25,38
+08A11,"Deluxe Bay
+Window","maintenance
+Exhaust fan",12/05/25,15/05/25,16/05/25,15
+08A09,"Deluxe Bay
+Window",Perbaikan sofa,13/05/25,16/05/25,17/05/25,38
+08B12,"Deluxe Twin
+Balcony",Perbaikan sofa,13/05/25,16/05/25,17/05/25,38
+08B01,"Deluxe
+Balcony","maintenance team
+project",17/05/25,18/05/25,19/05/25,14
+17B06L,"Deluxe
+Balcony","maintenance area
+balkon",22/05/25,23/05/25,24/05/25,38
+05B02,"Deluxe Twin
+Balcony",ac outdoor trouble,23/05/25,26/05/25,27/05/25,15
+05B02,"Deluxe Twin
+Balcony",ac outdoor,27/05/25,28/05/25,29/05/25,15
+05B06,"Deluxe Twin
+Balcony",tv di perbaiki,31/05/25,02/06/25,03/06/25,15
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+,,barang pengganti,,,,
+07B05,"Deluxe Twin
+Balcony",plafon basah,09/06/25,11/06/25,12/06/25,15
+08B03,"Deluxe
+Balcony","Freon AC
+habis,bisa di
+follow up
+enggenering
+besok senin 16
+juni 2025",15/06/25,16/06/25,17/06/25,38
+08B03,"Deluxe
+Balcony","Pembongkaran
+pipa AC dan
+penambahan
+freon",17/06/25,18/06/25,19/06/25,38
+07B03,"Deluxe
+Balcony","pengerjaan
+deffect
+menyeluruh di
+area kamar",14/07/25,15/07/25,16/07/25,38
+07B06,"Deluxe
+Balcony",repainting wall,15/07/25,16/07/25,17/07/25,38
+05A16,"Deluxe Bay
+Window","repaint plafon
+atas daybed",21/07/25,21/07/25,22/07/25,38
+07A01,"Deluxe Bay
+Window","plafon kamar
+mandi rembes
+dari unit atasnya",20/07/25,22/07/25,23/07/25,15
+06A12,"Deluxe Bay
+Window","maintenance
+dinding",29/07/25,31/07/25,01/08/25,15
+08B06,"Deluxe
+Balcony","marmer wastafel
+kamar mandi
+kendor,akan lepas",05/08/25,06/08/25,07/08/25,38
+07B12,"Deluxe Twin
+Balcony","maintenance
+balkon",07/08/25,08/08/25,09/08/25,15
+06A10,"Deluxe Bay
+Window","Akan dilakukan
+shampoo head
+board dan daybed
+oleh evening shift",16/08/25,16/08/25,17/08/25,38
+06A12,"Deluxe Bay
+Window","Akan dilakukan
+shampoo head
+board dan daybed
+oleh evening shift",16/08/25,16/08/25,17/08/25,38
+07A05,"Deluxe Bay
+Window",maintenance HK,17/08/25,18/08/25,19/08/25,15
+07A09,"Deluxe Bay
+Window",maintenance HK,17/08/25,18/08/25,19/08/25,15
+05A02,"Deluxe Bay
+Window",shampoo daybed,19/08/25,19/08/25,20/08/25,38
+"Room
+Number",Room Type,Reason,From Date,To Date,"Release
+Date",UID
+05A06,"Deluxe Bay
+Window","sofa butuh di
+spotting,karna ada
+spot",26/08/25,26/08/25,27/08/25,38
+06B16,"Executive
+Suite",maintenance,29/08/25,30/08/25,31/08/25,15
+06A06,"Deluxe Bay
+Window","plafon kamar
+mandi ada
+rembesan dari
+unit atasnya",30/08/25,02/09/25,03/09/25,15
