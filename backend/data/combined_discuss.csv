@@ -3175,13 +3175,13 @@ Date,Arrangement,Room Type,Average Room Rate,Occupancy Rate,Is_NationalHoliday,I
 2026-01-21,RB,Family Suite,4378120,0.7339,False,False,False,False,False,False,False,0,0,3,2,21,1,2026,predicted
 2026-01-21,RO,Executive Suite,1413361,0.7339,False,False,False,False,False,False,False,0,0,3,2,21,1,2026,predicted
 2026-01-21,RO,Family Suite,3101492,0.7339,False,False,False,False,False,False,False,0,0,3,2,21,1,2026,predicted
-2026-01-22,RB,Deluxe,731980,0.6833,False,False,True,False,False,False,False,0,0,4,3,22,1,2026,predicted
-2026-01-22,RO,Deluxe,630419,0.6833,False,False,True,False,False,False,False,0,0,4,3,22,1,2026,predicted
-2026-01-22,RB,Executive Suite,1574463,0.6833,False,False,True,False,False,False,False,0,0,4,3,22,1,2026,predicted
-2026-01-22,RB,Suite,1852197,0.6833,False,False,True,False,False,False,False,0,0,4,3,22,1,2026,predicted
-2026-01-22,RB,Family Suite,4512696,0.6833,False,False,True,False,False,False,False,0,0,4,3,22,1,2026,predicted
-2026-01-22,RO,Executive Suite,1502303,0.6833,False,False,True,False,False,False,False,0,0,4,3,22,1,2026,predicted
-2026-01-22,RO,Family Suite,3117131,0.6833,False,False,True,False,False,False,False,0,0,4,3,22,1,2026,predicted
+2026-01-22,RB,Deluxe,742592,0.7045,False,False,False,False,False,False,False,0,0,4,3,22,1,2026,predicted
+2026-01-22,RO,Deluxe,657269,0.7045,False,False,False,False,False,False,False,0,0,4,3,22,1,2026,predicted
+2026-01-22,RB,Executive Suite,1498121,0.7045,False,False,False,False,False,False,False,0,0,4,3,22,1,2026,predicted
+2026-01-22,RB,Suite,1893378,0.7045,False,False,False,False,False,False,False,0,0,4,3,22,1,2026,predicted
+2026-01-22,RB,Family Suite,4598746,0.7045,False,False,False,False,False,False,False,0,0,4,3,22,1,2026,predicted
+2026-01-22,RO,Executive Suite,1434187,0.7045,False,False,False,False,False,False,False,0,0,4,3,22,1,2026,predicted
+2026-01-22,RO,Family Suite,3206718,0.7045,False,False,False,False,False,False,False,0,0,4,3,22,1,2026,predicted
 2026-01-23,RB,Deluxe,737306,0.6259,False,False,False,False,False,False,False,0,0,5,4,23,1,2026,predicted
 2026-01-23,RO,Deluxe,638760,0.6259,False,False,False,False,False,False,False,0,0,5,4,23,1,2026,predicted
 2026-01-23,RB,Executive Suite,1517009,0.6259,False,False,False,False,False,False,False,0,0,5,4,23,1,2026,predicted
@@ -3805,20 +3805,20 @@ Date,Arrangement,Room Type,Average Room Rate,Occupancy Rate,Is_NationalHoliday,I
 2026-04-21,RB,Family Suite,5407435,0.6982,False,False,False,False,False,False,False,0,0,10,1,21,4,2026,predicted
 2026-04-21,RO,Executive Suite,1476585,0.6982,False,False,False,False,False,False,False,0,0,10,1,21,4,2026,predicted
 2026-04-21,RO,Family Suite,3921897,0.6982,False,False,False,False,False,False,False,0,0,10,1,21,4,2026,predicted
-2026-04-22,RB,Deluxe,792056,0.7228,False,False,True,False,False,False,False,0,0,9,2,22,4,2026,predicted
-2026-04-22,RO,Deluxe,702415,0.7228,False,False,True,False,False,False,False,0,0,9,2,22,4,2026,predicted
-2026-04-22,RB,Executive Suite,1632124,0.7228,False,False,True,False,False,False,False,0,0,9,2,22,4,2026,predicted
-2026-04-22,RB,Suite,1788925,0.7228,False,False,True,False,False,False,False,0,0,9,2,22,4,2026,predicted
-2026-04-22,RB,Family Suite,5161338,0.7228,False,False,True,False,False,False,False,0,0,9,2,22,4,2026,predicted
-2026-04-22,RO,Executive Suite,1495230,0.7228,False,False,True,False,False,False,False,0,0,9,2,22,4,2026,predicted
-2026-04-22,RO,Family Suite,3770971,0.7228,False,False,True,False,False,False,False,0,0,9,2,22,4,2026,predicted
-2026-04-23,RB,Deluxe,793379,0.6744,False,False,True,False,False,False,False,0,0,8,3,23,4,2026,predicted
-2026-04-23,RO,Deluxe,711255,0.6744,False,False,True,False,False,False,False,0,0,8,3,23,4,2026,predicted
-2026-04-23,RB,Executive Suite,1601579,0.6744,False,False,True,False,False,False,False,0,0,8,3,23,4,2026,predicted
-2026-04-23,RB,Suite,1648645,0.6744,False,False,True,False,False,False,False,0,0,8,3,23,4,2026,predicted
-2026-04-23,RB,Family Suite,4896760,0.6744,False,False,True,False,False,False,False,0,0,8,3,23,4,2026,predicted
-2026-04-23,RO,Executive Suite,1515123,0.6744,False,False,True,False,False,False,False,0,0,8,3,23,4,2026,predicted
-2026-04-23,RO,Family Suite,3497350,0.6744,False,False,True,False,False,False,False,0,0,8,3,23,4,2026,predicted
+2026-04-22,RB,Deluxe,790186,0.7167,False,False,False,False,False,False,False,0,0,9,2,22,4,2026,predicted
+2026-04-22,RO,Deluxe,694853,0.7167,False,False,False,False,False,False,False,0,0,9,2,22,4,2026,predicted
+2026-04-22,RB,Executive Suite,1607048,0.7167,False,False,False,False,False,False,False,0,0,9,2,22,4,2026,predicted
+2026-04-22,RB,Suite,1783583,0.7167,False,False,False,False,False,False,False,0,0,9,2,22,4,2026,predicted
+2026-04-22,RB,Family Suite,5191116,0.7167,False,False,False,False,False,False,False,0,0,9,2,22,4,2026,predicted
+2026-04-22,RO,Executive Suite,1486448,0.7167,False,False,False,False,False,False,False,0,0,9,2,22,4,2026,predicted
+2026-04-22,RO,Family Suite,3786155,0.7167,False,False,False,False,False,False,False,0,0,9,2,22,4,2026,predicted
+2026-04-23,RB,Deluxe,788728,0.6819,False,False,False,False,False,False,False,0,0,8,3,23,4,2026,predicted
+2026-04-23,RO,Deluxe,704158,0.6819,False,False,False,False,False,False,False,0,0,8,3,23,4,2026,predicted
+2026-04-23,RB,Executive Suite,1576422,0.6819,False,False,False,False,False,False,False,0,0,8,3,23,4,2026,predicted
+2026-04-23,RB,Suite,1638949,0.6819,False,False,False,False,False,False,False,0,0,8,3,23,4,2026,predicted
+2026-04-23,RB,Family Suite,4904349,0.6819,False,False,False,False,False,False,False,0,0,8,3,23,4,2026,predicted
+2026-04-23,RO,Executive Suite,1497016,0.6819,False,False,False,False,False,False,False,0,0,8,3,23,4,2026,predicted
+2026-04-23,RO,Family Suite,3499684,0.6819,False,False,False,False,False,False,False,0,0,8,3,23,4,2026,predicted
 2026-04-24,RB,Deluxe,803022,0.6328,False,False,False,False,False,False,False,0,0,7,4,24,4,2026,predicted
 2026-04-24,RO,Deluxe,714468,0.6328,False,False,False,False,False,False,False,0,0,7,4,24,4,2026,predicted
 2026-04-24,RB,Executive Suite,1510445,0.6328,False,False,False,False,False,False,False,0,0,7,4,24,4,2026,predicted
@@ -4092,20 +4092,20 @@ Date,Arrangement,Room Type,Average Room Rate,Occupancy Rate,Is_NationalHoliday,I
 2026-06-01,RB,Family Suite,5498909,0.444,True,False,False,False,False,False,True,3,3,0,0,1,6,2026,predicted
 2026-06-01,RO,Executive Suite,1718821,0.444,True,False,False,False,False,False,True,3,3,0,0,1,6,2026,predicted
 2026-06-01,RO,Family Suite,3933420,0.444,True,False,False,False,False,False,True,3,3,0,0,1,6,2026,predicted
-2026-06-02,RB,Deluxe,763504,0.3963,False,False,True,False,False,False,False,0,0,1,1,2,6,2026,predicted
-2026-06-02,RO,Deluxe,654051,0.3963,False,False,True,False,False,False,False,0,0,1,1,2,6,2026,predicted
-2026-06-02,RB,Executive Suite,1408558,0.3963,False,False,True,False,False,False,False,0,0,1,1,2,6,2026,predicted
-2026-06-02,RB,Suite,1175243,0.3963,False,False,True,False,False,False,False,0,0,1,1,2,6,2026,predicted
-2026-06-02,RB,Family Suite,5093072,0.3963,False,False,True,False,False,False,False,0,0,1,1,2,6,2026,predicted
-2026-06-02,RO,Executive Suite,1713275,0.3963,False,False,True,False,False,False,False,0,0,1,1,2,6,2026,predicted
-2026-06-02,RO,Family Suite,3660990,0.3963,False,False,True,False,False,False,False,0,0,1,1,2,6,2026,predicted
-2026-06-03,RB,Deluxe,732709,0.4933,False,False,True,False,False,False,False,0,0,2,2,3,6,2026,predicted
-2026-06-03,RO,Deluxe,663630,0.4933,False,False,True,False,False,False,False,0,0,2,2,3,6,2026,predicted
-2026-06-03,RB,Executive Suite,1538345,0.4933,False,False,True,False,False,False,False,0,0,2,2,3,6,2026,predicted
-2026-06-03,RB,Suite,1200752,0.4933,False,False,True,False,False,False,False,0,0,2,2,3,6,2026,predicted
-2026-06-03,RB,Family Suite,5023730,0.4933,False,False,True,False,False,False,False,0,0,2,2,3,6,2026,predicted
-2026-06-03,RO,Executive Suite,1605217,0.4933,False,False,True,False,False,False,False,0,0,2,2,3,6,2026,predicted
-2026-06-03,RO,Family Suite,3628355,0.4933,False,False,True,False,False,False,False,0,0,2,2,3,6,2026,predicted
+2026-06-02,RB,Deluxe,762591,0.394,False,False,False,False,False,False,False,0,0,1,1,2,6,2026,predicted
+2026-06-02,RO,Deluxe,653414,0.394,False,False,False,False,False,False,False,0,0,1,1,2,6,2026,predicted
+2026-06-02,RB,Executive Suite,1334747,0.394,False,False,False,False,False,False,False,0,0,1,1,2,6,2026,predicted
+2026-06-02,RB,Suite,1157208,0.394,False,False,False,False,False,False,False,0,0,1,1,2,6,2026,predicted
+2026-06-02,RB,Family Suite,5094426,0.394,False,False,False,False,False,False,False,0,0,1,1,2,6,2026,predicted
+2026-06-02,RO,Executive Suite,1697227,0.394,False,False,False,False,False,False,False,0,0,1,1,2,6,2026,predicted
+2026-06-02,RO,Family Suite,3664511,0.394,False,False,False,False,False,False,False,0,0,1,1,2,6,2026,predicted
+2026-06-03,RB,Deluxe,739090,0.4882,False,False,False,False,False,False,False,0,0,2,2,3,6,2026,predicted
+2026-06-03,RO,Deluxe,660875,0.4882,False,False,False,False,False,False,False,0,0,2,2,3,6,2026,predicted
+2026-06-03,RB,Executive Suite,1510243,0.4882,False,False,False,False,False,False,False,0,0,2,2,3,6,2026,predicted
+2026-06-03,RB,Suite,1195095,0.4882,False,False,False,False,False,False,False,0,0,2,2,3,6,2026,predicted
+2026-06-03,RB,Family Suite,5025083,0.4882,False,False,False,False,False,False,False,0,0,2,2,3,6,2026,predicted
+2026-06-03,RO,Executive Suite,1601830,0.4882,False,False,False,False,False,False,False,0,0,2,2,3,6,2026,predicted
+2026-06-03,RO,Family Suite,3631876,0.4882,False,False,False,False,False,False,False,0,0,2,2,3,6,2026,predicted
 2026-06-04,RB,Deluxe,745341,0.5308,False,False,False,False,False,False,False,0,0,3,3,4,6,2026,predicted
 2026-06-04,RO,Deluxe,665565,0.5308,False,False,False,False,False,False,False,0,0,3,3,4,6,2026,predicted
 2026-06-04,RB,Executive Suite,1431535,0.5308,False,False,False,False,False,False,False,0,0,3,3,4,6,2026,predicted
@@ -4442,20 +4442,20 @@ Date,Arrangement,Room Type,Average Room Rate,Occupancy Rate,Is_NationalHoliday,I
 2026-07-21,RB,Family Suite,5629324,0.6489,False,False,False,False,False,False,False,0,0,25,1,21,7,2026,predicted
 2026-07-21,RO,Executive Suite,1741782,0.6489,False,False,False,False,False,False,False,0,0,25,1,21,7,2026,predicted
 2026-07-21,RO,Family Suite,4038154,0.6489,False,False,False,False,False,False,False,0,0,25,1,21,7,2026,predicted
-2026-07-22,RB,Deluxe,875649,0.7598,False,False,True,False,False,False,False,0,0,24,2,22,7,2026,predicted
-2026-07-22,RO,Deluxe,735475,0.7598,False,False,True,False,False,False,False,0,0,24,2,22,7,2026,predicted
-2026-07-22,RB,Executive Suite,1823442,0.7598,False,False,True,False,False,False,False,0,0,24,2,22,7,2026,predicted
-2026-07-22,RB,Suite,1239123,0.7598,False,False,True,False,False,False,False,0,0,24,2,22,7,2026,predicted
-2026-07-22,RB,Family Suite,5538372,0.7598,False,False,True,False,False,False,False,0,0,24,2,22,7,2026,predicted
-2026-07-22,RO,Executive Suite,1659253,0.7598,False,False,True,False,False,False,False,0,0,24,2,22,7,2026,predicted
-2026-07-22,RO,Family Suite,4031237,0.7598,False,False,True,False,False,False,False,0,0,24,2,22,7,2026,predicted
-2026-07-23,RB,Deluxe,899798,0.7925,False,False,True,False,False,False,False,0,0,23,3,23,7,2026,predicted
-2026-07-23,RO,Deluxe,758361,0.7925,False,False,True,False,False,False,False,0,0,23,3,23,7,2026,predicted
-2026-07-23,RB,Executive Suite,1762264,0.7925,False,False,True,False,False,False,False,0,0,23,3,23,7,2026,predicted
-2026-07-23,RB,Suite,1251914,0.7925,False,False,True,False,False,False,False,0,0,23,3,23,7,2026,predicted
-2026-07-23,RB,Family Suite,5582709,0.7925,False,False,True,False,False,False,False,0,0,23,3,23,7,2026,predicted
-2026-07-23,RO,Executive Suite,1613866,0.7925,False,False,True,False,False,False,False,0,0,23,3,23,7,2026,predicted
-2026-07-23,RO,Family Suite,4059016,0.7925,False,False,True,False,False,False,False,0,0,23,3,23,7,2026,predicted
+2026-07-22,RB,Deluxe,849170,0.725,False,False,False,False,False,False,False,0,0,24,2,22,7,2026,predicted
+2026-07-22,RO,Deluxe,718714,0.725,False,False,False,False,False,False,False,0,0,24,2,22,7,2026,predicted
+2026-07-22,RB,Executive Suite,1811078,0.725,False,False,False,False,False,False,False,0,0,24,2,22,7,2026,predicted
+2026-07-22,RB,Suite,1232110,0.725,False,False,False,False,False,False,False,0,0,24,2,22,7,2026,predicted
+2026-07-22,RB,Family Suite,5556563,0.725,False,False,False,False,False,False,False,0,0,24,2,22,7,2026,predicted
+2026-07-22,RO,Executive Suite,1735776,0.725,False,False,False,False,False,False,False,0,0,24,2,22,7,2026,predicted
+2026-07-22,RO,Family Suite,4022519,0.725,False,False,False,False,False,False,False,0,0,24,2,22,7,2026,predicted
+2026-07-23,RB,Deluxe,873062,0.7874,False,False,False,False,False,False,False,0,0,23,3,23,7,2026,predicted
+2026-07-23,RO,Deluxe,752366,0.7874,False,False,False,False,False,False,False,0,0,23,3,23,7,2026,predicted
+2026-07-23,RB,Executive Suite,1762605,0.7874,False,False,False,False,False,False,False,0,0,23,3,23,7,2026,predicted
+2026-07-23,RB,Suite,1200004,0.7874,False,False,False,False,False,False,False,0,0,23,3,23,7,2026,predicted
+2026-07-23,RB,Family Suite,5625555,0.7874,False,False,False,False,False,False,False,0,0,23,3,23,7,2026,predicted
+2026-07-23,RO,Executive Suite,1616381,0.7874,False,False,False,False,False,False,False,0,0,23,3,23,7,2026,predicted
+2026-07-23,RO,Family Suite,4081583,0.7874,False,False,False,False,False,False,False,0,0,23,3,23,7,2026,predicted
 2026-07-24,RB,Deluxe,900866,0.8124,False,False,False,False,False,False,False,0,0,22,4,24,7,2026,predicted
 2026-07-24,RO,Deluxe,756590,0.8124,False,False,False,False,False,False,False,0,0,22,4,24,7,2026,predicted
 2026-07-24,RB,Executive Suite,1794640,0.8124,False,False,False,False,False,False,False,0,0,22,4,24,7,2026,predicted
@@ -4687,20 +4687,20 @@ Date,Arrangement,Room Type,Average Room Rate,Occupancy Rate,Is_NationalHoliday,I
 2026-08-25,RB,Family Suite,4571569,0.6539,True,False,False,False,False,False,True,4,4,0,1,25,8,2026,predicted
 2026-08-25,RO,Executive Suite,1642771,0.6539,True,False,False,False,False,False,True,4,4,0,1,25,8,2026,predicted
 2026-08-25,RO,Family Suite,3397116,0.6539,True,False,False,False,False,False,True,4,4,0,1,25,8,2026,predicted
-2026-08-26,RB,Deluxe,852934,0.7004,False,False,True,False,False,False,False,0,0,1,2,26,8,2026,predicted
-2026-08-26,RO,Deluxe,716487,0.7004,False,False,True,False,False,False,False,0,0,1,2,26,8,2026,predicted
-2026-08-26,RB,Executive Suite,1605822,0.7004,False,False,True,False,False,False,False,0,0,1,2,26,8,2026,predicted
-2026-08-26,RB,Suite,1354333,0.7004,False,False,True,False,False,False,False,0,0,1,2,26,8,2026,predicted
-2026-08-26,RB,Family Suite,4141041,0.7004,False,False,True,False,False,False,False,0,0,1,2,26,8,2026,predicted
-2026-08-26,RO,Executive Suite,1521863,0.7004,False,False,True,False,False,False,False,0,0,1,2,26,8,2026,predicted
-2026-08-26,RO,Family Suite,3087227,0.7004,False,False,True,False,False,False,False,0,0,1,2,26,8,2026,predicted
-2026-08-27,RB,Deluxe,865399,0.7365,False,False,True,False,False,False,False,0,0,2,3,27,8,2026,predicted
-2026-08-27,RO,Deluxe,687219,0.7365,False,False,True,False,False,False,False,0,0,2,3,27,8,2026,predicted
-2026-08-27,RB,Executive Suite,1707465,0.7365,False,False,True,False,False,False,False,0,0,2,3,27,8,2026,predicted
-2026-08-27,RB,Suite,1852558,0.7365,False,False,True,False,False,False,False,0,0,2,3,27,8,2026,predicted
-2026-08-27,RB,Family Suite,4275143,0.7365,False,False,True,False,False,False,False,0,0,2,3,27,8,2026,predicted
-2026-08-27,RO,Executive Suite,1521554,0.7365,False,False,True,False,False,False,False,0,0,2,3,27,8,2026,predicted
-2026-08-27,RO,Family Suite,3219149,0.7365,False,False,True,False,False,False,False,0,0,2,3,27,8,2026,predicted
+2026-08-26,RB,Deluxe,841194,0.7064,False,False,False,False,False,False,False,0,0,1,2,26,8,2026,predicted
+2026-08-26,RO,Deluxe,705333,0.7064,False,False,False,False,False,False,False,0,0,1,2,26,8,2026,predicted
+2026-08-26,RB,Executive Suite,1615022,0.7064,False,False,False,False,False,False,False,0,0,1,2,26,8,2026,predicted
+2026-08-26,RB,Suite,1424127,0.7064,False,False,False,False,False,False,False,0,0,1,2,26,8,2026,predicted
+2026-08-26,RB,Family Suite,4220389,0.7064,False,False,False,False,False,False,False,0,0,1,2,26,8,2026,predicted
+2026-08-26,RO,Executive Suite,1534446,0.7064,False,False,False,False,False,False,False,0,0,1,2,26,8,2026,predicted
+2026-08-26,RO,Family Suite,3150958,0.7064,False,False,False,False,False,False,False,0,0,1,2,26,8,2026,predicted
+2026-08-27,RB,Deluxe,859038,0.7488,False,False,False,False,False,False,False,0,0,2,3,27,8,2026,predicted
+2026-08-27,RO,Deluxe,717205,0.7488,False,False,False,False,False,False,False,0,0,2,3,27,8,2026,predicted
+2026-08-27,RB,Executive Suite,1735191,0.7488,False,False,False,False,False,False,False,0,0,2,3,27,8,2026,predicted
+2026-08-27,RB,Suite,1907354,0.7488,False,False,False,False,False,False,False,0,0,2,3,27,8,2026,predicted
+2026-08-27,RB,Family Suite,4252652,0.7488,False,False,False,False,False,False,False,0,0,2,3,27,8,2026,predicted
+2026-08-27,RO,Executive Suite,1533095,0.7488,False,False,False,False,False,False,False,0,0,2,3,27,8,2026,predicted
+2026-08-27,RO,Family Suite,3194901,0.7488,False,False,False,False,False,False,False,0,0,2,3,27,8,2026,predicted
 2026-08-28,RB,Deluxe,871453,0.7452,False,False,False,False,False,False,False,0,0,3,4,28,8,2026,predicted
 2026-08-28,RO,Deluxe,713016,0.7452,False,False,False,False,False,False,False,0,0,3,4,28,8,2026,predicted
 2026-08-28,RB,Executive Suite,1811663,0.7452,False,False,False,False,False,False,False,0,0,3,4,28,8,2026,predicted
@@ -5079,20 +5079,20 @@ Date,Arrangement,Room Type,Average Room Rate,Occupancy Rate,Is_NationalHoliday,I
 2026-10-20,RB,Family Suite,4835892,0.6747,False,False,False,False,False,False,False,0,0,56,1,20,10,2026,predicted
 2026-10-20,RO,Executive Suite,1619162,0.6747,False,False,False,False,False,False,False,0,0,56,1,20,10,2026,predicted
 2026-10-20,RO,Family Suite,3585940,0.6747,False,False,False,False,False,False,False,0,0,56,1,20,10,2026,predicted
-2026-10-21,RB,Deluxe,827632,0.7892,False,False,True,False,False,False,False,0,0,57,2,21,10,2026,predicted
-2026-10-21,RO,Deluxe,692373,0.7892,False,False,True,False,False,False,False,0,0,57,2,21,10,2026,predicted
-2026-10-21,RB,Executive Suite,1831625,0.7892,False,False,True,False,False,False,False,0,0,57,2,21,10,2026,predicted
-2026-10-21,RB,Suite,1385633,0.7892,False,False,True,False,False,False,False,0,0,57,2,21,10,2026,predicted
-2026-10-21,RB,Family Suite,5013282,0.7892,False,False,True,False,False,False,False,0,0,57,2,21,10,2026,predicted
-2026-10-21,RO,Executive Suite,1647178,0.7892,False,False,True,False,False,False,False,0,0,57,2,21,10,2026,predicted
-2026-10-21,RO,Family Suite,3701229,0.7892,False,False,True,False,False,False,False,0,0,57,2,21,10,2026,predicted
-2026-10-22,RB,Deluxe,828254,0.8204,False,False,True,False,False,False,False,0,0,58,3,22,10,2026,predicted
-2026-10-22,RO,Deluxe,696913,0.8204,False,False,True,False,False,False,False,0,0,58,3,22,10,2026,predicted
-2026-10-22,RB,Executive Suite,1775913,0.8204,False,False,True,False,False,False,False,0,0,58,3,22,10,2026,predicted
-2026-10-22,RB,Suite,1364064,0.8204,False,False,True,False,False,False,False,0,0,58,3,22,10,2026,predicted
-2026-10-22,RB,Family Suite,5134877,0.8204,False,False,True,False,False,False,False,0,0,58,3,22,10,2026,predicted
-2026-10-22,RO,Executive Suite,1647922,0.8204,False,False,True,False,False,False,False,0,0,58,3,22,10,2026,predicted
-2026-10-22,RO,Family Suite,3785866,0.8204,False,False,True,False,False,False,False,0,0,58,3,22,10,2026,predicted
+2026-10-21,RB,Deluxe,822192,0.7597,False,False,False,False,False,False,False,0,0,57,2,21,10,2026,predicted
+2026-10-21,RO,Deluxe,691353,0.7597,False,False,False,False,False,False,False,0,0,57,2,21,10,2026,predicted
+2026-10-21,RB,Executive Suite,1787361,0.7597,False,False,False,False,False,False,False,0,0,57,2,21,10,2026,predicted
+2026-10-21,RB,Suite,1255122,0.7597,False,False,False,False,False,False,False,0,0,57,2,21,10,2026,predicted
+2026-10-21,RB,Family Suite,4766302,0.7597,False,False,False,False,False,False,False,0,0,57,2,21,10,2026,predicted
+2026-10-21,RO,Executive Suite,1620995,0.7597,False,False,False,False,False,False,False,0,0,57,2,21,10,2026,predicted
+2026-10-21,RO,Family Suite,3560696,0.7597,False,False,False,False,False,False,False,0,0,57,2,21,10,2026,predicted
+2026-10-22,RB,Deluxe,824091,0.8193,False,False,False,False,False,False,False,0,0,58,3,22,10,2026,predicted
+2026-10-22,RO,Deluxe,693374,0.8193,False,False,False,False,False,False,False,0,0,58,3,22,10,2026,predicted
+2026-10-22,RB,Executive Suite,1757651,0.8193,False,False,False,False,False,False,False,0,0,58,3,22,10,2026,predicted
+2026-10-22,RB,Suite,1270437,0.8193,False,False,False,False,False,False,False,0,0,58,3,22,10,2026,predicted
+2026-10-22,RB,Family Suite,5175854,0.8193,False,False,False,False,False,False,False,0,0,58,3,22,10,2026,predicted
+2026-10-22,RO,Executive Suite,1637154,0.8193,False,False,False,False,False,False,False,0,0,58,3,22,10,2026,predicted
+2026-10-22,RO,Family Suite,3801959,0.8193,False,False,False,False,False,False,False,0,0,58,3,22,10,2026,predicted
 2026-10-23,RB,Deluxe,838781,0.815,False,False,False,False,False,False,False,0,0,59,4,23,10,2026,predicted
 2026-10-23,RO,Deluxe,694173,0.815,False,False,False,False,False,False,False,0,0,59,4,23,10,2026,predicted
 2026-10-23,RB,Executive Suite,1789506,0.815,False,False,False,False,False,False,False,0,0,59,4,23,10,2026,predicted

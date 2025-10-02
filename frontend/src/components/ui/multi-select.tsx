@@ -60,47 +60,59 @@ export function MultiSelect({
           aria-expanded={open}
           className={cn("w-full justify-between min-h-10", className)}
         >
-          <div className="flex flex-wrap gap-1 flex-1 min-w-0">
+          <div className="flex gap-1 flex-1 min-w-0 overflow-hidden">
             {selected.length === 0 && (
-              <span className="text-muted-foreground">{placeholder}</span>
+              <span className="text-muted-foreground truncate">{placeholder}</span>
             )}
-            {selected.map((item) => (
-              <Badge
-                variant="secondary"
-                key={item}
-                className="text-xs"
-                onClick={(e) => {
-                  e.stopPropagation()
-                  handleUnselect(item)
-                }}
-              >
-                {item}
-                <button
-                  className="ml-1 ring-offset-background rounded-full outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-                  onKeyDown={(e) => {
-                    if (e.key === "Enter") {
+            {selected.length > 0 && (
+              <>
+                {/* Show visible items with max count */}
+                {selected.slice(0, 2).map((item) => (
+                  <Badge
+                    variant="secondary"
+                    key={item}
+                    className="text-xs shrink-0"
+                    onClick={(e) => {
+                      e.stopPropagation()
                       handleUnselect(item)
-                    }
-                  }}
-                  onMouseDown={(e) => {
-                    e.preventDefault()
-                    e.stopPropagation()
-                  }}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    e.stopPropagation()
-                    handleUnselect(item)
-                  }}
-                >
-                  <X className="h-3 w-3 text-muted-foreground hover:text-foreground" />
-                </button>
-              </Badge>
-            ))}
+                    }}
+                  >
+                    <span className="truncate max-w-16">{item}</span>
+                    <button
+                      className="ml-1 ring-offset-background rounded-full outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 shrink-0"
+                      onKeyDown={(e) => {
+                        if (e.key === "Enter") {
+                          handleUnselect(item)
+                        }
+                      }}
+                      onMouseDown={(e) => {
+                        e.preventDefault()
+                        e.stopPropagation()
+                      }}
+                      onClick={(e) => {
+                        e.preventDefault()
+                        e.stopPropagation()
+                        handleUnselect(item)
+                      }}
+                    >
+                      <X className="h-3 w-3 text-muted-foreground hover:text-foreground" />
+                    </button>
+                  </Badge>
+                ))}
+                
+                {/* Show remainder count if > 2 */}
+                {selected.length > 2 && (
+                  <span className="text-xs text-muted-foreground shrink-0">
+                    +{selected.length - 2} more
+                  </span>
+                )}
+              </>
+            )}
           </div>
           <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-full p-0">
+      <PopoverContent className="w-[--radix-popover-trigger-width] p-0" align="start">
         <Command>
           <CommandInput placeholder={searchPlaceholder} />
           <CommandList>

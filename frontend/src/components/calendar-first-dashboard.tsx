@@ -29,6 +29,13 @@ interface DayRecommendations {
 
 type ViewMode = 'month' | 'week';
 
+interface ManualAnalysisEntry {
+  from: string;
+  until: string;
+  predictions: string;
+  description: string;
+}
+
 export function CalendarFirstDashboard() {
   const [currentDate, setCurrentDate] = useState(new Date(2026, 0, 1)); // Start with today
   const [calendarData, setCalendarData] = useState<CalendarData>({});
@@ -44,6 +51,59 @@ export function CalendarFirstDashboard() {
   const [calcRoomType, setCalcRoomType] = useState<string>('All');
   const [calcArrangement, setCalcArrangement] = useState<string>('RB');
   const [currentUser, setCurrentUser] = useState(getStoredUser());
+  const [analysisMode, setAnalysisMode] = useState<boolean>(false);
+
+  // Manual analysis data from CSV
+  const manualAnalysisData: ManualAnalysisEntry[] = [
+    { from: '2026-01-01', until: '2026-01-03', predictions: 'high', description: 'Liburan' },
+    { from: '2026-01-04', until: '2026-01-14', predictions: 'Low', description: '' },
+    { from: '2026-01-15', until: '2026-01-17', predictions: 'high', description: 'Long Weekend Isra Mikraj' },
+    { from: '2026-01-18', until: '2026-01-19', predictions: 'low', description: '' },
+    { from: '2026-01-20', until: '2026-01-23', predictions: 'pick-up', description: 'Wisuda Pascasarjana (22)' },
+    { from: '2026-01-24', until: '2026-02-12', predictions: 'low', description: '' },
+    { from: '2026-02-13', until: '2026-02-17', predictions: 'high', description: 'Long Weekend Imlek' },
+    { from: '2026-02-18', until: '2026-02-19', predictions: 'low', description: '' },
+    { from: '2026-02-20', until: '2026-02-22', predictions: 'pick-up', description: 'Wisuda Pascasarjana (22)' },
+    { from: '2026-02-23', until: '2026-03-17', predictions: 'low', description: '' },
+    { from: '2026-03-18', until: '2026-03-22', predictions: 'pick-up', description: 'Nyepi + Lebaran (21-22)' },
+    { from: '2026-03-23', until: '2026-03-24', predictions: 'high', description: 'H+2 Lebaran' },
+    { from: '2026-03-25', until: '2026-03-26', predictions: 'pick-up', description: 'potensi cuti lebaran' },
+    { from: '2026-03-27', until: '2026-04-02', predictions: 'low', description: '' },
+    { from: '2026-04-03', until: '2026-04-05', predictions: 'high', description: 'Long Weekend Paskah' },
+    { from: '2026-04-06', until: '2026-04-19', predictions: 'low', description: '' },
+    { from: '2026-04-20', until: '2026-04-25', predictions: 'pick-up', description: 'Wisuda Pascasarjana (22-23)' },
+    { from: '2026-04-26', until: '2026-04-30', predictions: 'low', description: '' },
+    { from: '2026-05-01', until: '2026-05-02', predictions: 'high', description: 'Long Weekend Buruh' },
+    { from: '2026-05-03', until: '2026-05-13', predictions: 'low', description: '' },
+    { from: '2026-05-14', until: '2026-05-16', predictions: 'high', description: 'Long Weekend Kenaikan Yesus Kristus' },
+    { from: '2026-05-17', until: '2026-05-27', predictions: 'low', description: '' },
+    { from: '2026-05-28', until: '2026-06-01', predictions: 'high', description: 'Idul Adha + Waisak + Hari Lahir Pancasila' },
+    { from: '2026-06-02', until: '2026-06-05', predictions: 'pick-up', description: 'Wisuda UGM (potential 4-5 due to Idul Adha)' },
+    { from: '2026-06-06', until: '2026-06-12', predictions: 'low', description: '' },
+    { from: '2026-06-13', until: '2026-06-16', predictions: 'pick-up', description: 'Muharram' },
+    { from: '2026-06-17', until: '2026-06-18', predictions: 'pick-up', description: 'Pra School Holiday' },
+    { from: '2026-06-19', until: '2026-07-12', predictions: 'high', description: 'School Holiday' },
+    { from: '2026-07-13', until: '2026-07-18', predictions: 'pick-up', description: 'Sisa School Holiday' },
+    { from: '2026-07-19', until: '2026-07-19', predictions: 'low', description: '' },
+    { from: '2026-07-20', until: '2026-07-23', predictions: 'pick-up', description: 'Wisuda Pascasarjana (22-23)' },
+    { from: '2026-07-24', until: '2026-08-21', predictions: 'low', description: '' },
+    { from: '2026-08-22', until: '2026-08-26', predictions: 'pick-up', description: 'Maulid Nabi Muhammad S.A.W.' },
+    { from: '2026-08-26', until: '2026-08-30', predictions: 'pick-up', description: 'Wisuda UGM (26-27)' },
+    { from: '2026-08-31', until: '2026-10-17', predictions: 'low', description: '' },
+    { from: '2026-10-18', until: '2026-10-20', predictions: 'pick-up', description: 'Wisuda UGM (20-21)' },
+    { from: '2026-10-23', until: '2026-12-17', predictions: 'low', description: '' },
+    { from: '2026-12-18', until: '2026-12-31', predictions: 'high', description: 'School Holiday' }
+  ];
+
+  // Helper function to get analysis for a specific date
+  const getAnalysisForDate = (dateStr: string): ManualAnalysisEntry | null => {
+    const targetDate = new Date(dateStr);
+    return manualAnalysisData.find(entry => {
+      const fromDate = new Date(entry.from);
+      const untilDate = new Date(entry.until);
+      return targetDate >= fromDate && targetDate <= untilDate;
+    }) || null;
+  };
 
   const calcRecommendations = React.useMemo(() => {
     if (!calcRange?.from || !calcRange?.to) return [] as Recommendation[];
@@ -317,23 +377,21 @@ export function CalendarFirstDashboard() {
   
   const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-  // Removed getCalculationMethodology and methodology dialog as they were not reflecting backend
-
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white sticky top-0 z-40 shadow-lg">
+      <div className="bg-secondary text-white sticky top-0 z-40 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-xl md:text-3xl font-bold">Forecast Calendar</h1>
+              <h1 className="text-xl md:text-3xl font-bold text-black">Forecast Calendar</h1>
             </div>
             <div className="flex items-center gap-4">
               {currentUser && (
-                <div className="flex items-center gap-2 text-sm">
+                <div className="flex items-center gap-2 text-sm text-black">
                   <User className="h-4 w-4" />
                   <span>{currentUser.name}</span>
-                  <span className="text-gray-300">({currentUser.role})</span>
+                  <span className="text-gray-500">({currentUser.role})</span>
                 </div>
               )}
               <Button
@@ -347,29 +405,22 @@ export function CalendarFirstDashboard() {
               </Button>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="max-w-7xl mx-auto px-4 py-6 space-y-6">
-        {/* Controls */}
-        <Card>
-          <CardContent className="p-4">
-            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
+          <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-2">
               {/* Navigation */}
               <div className="flex items-center gap-2">
                 <div className="flex items-center gap-2">
                   <Button variant="outline" size="sm" onClick={() => navigateDate('prev')} disabled={loading}>
-                    <ChevronLeft className="h-4 w-4" />
+                    <ChevronLeft className="h-4 w-4 text-black" />
                   </Button>
-                  <Button variant="outline" size="sm" onClick={goToToday} disabled={loading}>
+                  <Button variant="outline" size="sm" className="text-black" onClick={goToToday} disabled={loading}>
                     Today
                   </Button>
                   <Button variant="outline" size="sm" onClick={() => navigateDate('next')} disabled={loading}>
-                    <ChevronRight className="h-4 w-4" />
+                    <ChevronRight className="h-4 w-4 text-black" />
                   </Button>
                 </div>
                 
-                <div className="text-lg font-semibold text-gray-800 min-w-[200px]">
+                <div className="text-lg font-semibold text-black min-w-[200px]">
                   {viewMode === 'month' 
                     ? format(currentDate, 'MMMM yyyy')
                     : `Week of ${format(startOfWeek(currentDate), 'MMM dd, yyyy')}`
@@ -384,7 +435,7 @@ export function CalendarFirstDashboard() {
                   const month = parseInt(value);
                   setCurrentDate(new Date(currentDate.getFullYear(), month, 1));
                 }}>
-                  <SelectTrigger className="w-32">
+                  <SelectTrigger className="w-32 text-black">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
@@ -404,7 +455,7 @@ export function CalendarFirstDashboard() {
                   const year = parseInt(value);
                   setCurrentDate(new Date(year, currentDate.getMonth(), 1));
                 }}>
-                  <SelectTrigger className="w-20">
+                  <SelectTrigger className="w-20 text-black">
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent className="max-h-60">
@@ -422,7 +473,7 @@ export function CalendarFirstDashboard() {
                 {/* View Mode Toggle */}
                 <div className="flex items-center border rounded-lg p-1">
                   <Button
-                    variant={viewMode === 'month' ? 'default' : 'ghost'}
+                    variant={viewMode === 'month' ? 'default' : 'secondary'}
                     size="sm"
                     onClick={() => setViewMode('month')}
                     className="px-3"
@@ -431,7 +482,7 @@ export function CalendarFirstDashboard() {
                     Month
                   </Button>
                   <Button
-                    variant={viewMode === 'week' ? 'default' : 'ghost'}
+                    variant={viewMode === 'week' ? 'default' : 'secondary'}
                     size="sm"
                     onClick={() => setViewMode('week')}
                     className="px-3"
@@ -446,14 +497,14 @@ export function CalendarFirstDashboard() {
                   options={roomTypes}
                   selected={roomTypeFilter}
                   onChange={setRoomTypeFilter}
-                  placeholder="All"
+                  placeholder="All Room Types"
                   searchPlaceholder="Search room types..."
-                  className="w-full max-w-48 min-w-24"
+                  className="w-full max-w-48 min-w-24 text-black bg-white"
                 />
 
                 {/* Arrangement Filter */}
                 <Select value={arrangementFilter[0] || "All"} onValueChange={(value) => setArrangementFilter(value === "All" ? [] : [value])}>
-                  <SelectTrigger className="w-24">
+                  <SelectTrigger className="w-24 text-black">
                     <SelectValue placeholder="Arrangement" />
                   </SelectTrigger>
                   <SelectContent>
@@ -462,341 +513,449 @@ export function CalendarFirstDashboard() {
                     <SelectItem value="RO">RO</SelectItem>
                   </SelectContent>
                 </Select>
-
-
               </div>
             </div>
-                          {/* Calculator Accordion */}
-              {/* Place it in a new row and make it full width */}
-              <div className="w-full">
-                <Accordion type="single" collapsible className="w-full">
-                  <AccordionItem value="calculator">
-                    <AccordionTrigger>
-                      <div className="flex items-center gap-2 text-sm font-semibold">
-                        <Calculator className="h-4 w-4" /> Calculator
-                      </div>
-                    </AccordionTrigger>
-                    <AccordionContent>
-                      <div className="grid gap-4">
-                        {/* Selectors */}
-                        <div className="flex flex-wrap items-end gap-3">
-                          <div>
-                            <h4 className="text-sm font-semibold mb-2">Room Type</h4>
-                            <Select value={calcRoomType} onValueChange={setCalcRoomType}>
-                              <SelectTrigger className="w-40">
-                                <SelectValue />
-                              </SelectTrigger>
-                              <SelectContent className="max-h-60">
-                                <SelectItem value="All">All</SelectItem>
-                                {roomTypes.map(rt => (
-                                  <SelectItem key={rt} value={rt}>{rt}</SelectItem>
-                                ))}
-                              </SelectContent>
-                            </Select>
-                          </div>
-                          <div>
-                            <h4 className="text-sm font-semibold mb-2">Arrangement</h4>
-                            <Select value={calcArrangement} onValueChange={setCalcArrangement}>
-                              <SelectTrigger className="w-28">
-                                <SelectValue />
-                              </SelectTrigger>
-                              <SelectContent>
-                                <SelectItem value="RB">RB</SelectItem>
-                                <SelectItem value="RO">RO</SelectItem>
-                              </SelectContent>
-                            </Select>
-                          </div>
-                          {/* Date Range Picker */}
-                          <div>
-                            <h4 className="text-sm font-semibold mb-2">Date Range</h4>
-                            <DateRangePicker
-                              dateRange={calcRange}
-                              onDateRangeChange={(range) => {
-                                console.log('DateRangePicker onDateRangeChange:', range);
-                                setCalcRange(range);
-                                // Load calculator data when range changes
-                                loadCalculatorData(range);
-                              }}
-                              className="w-fit"
-                              placeholder="Pick a date range"
-                            />
-                          </div>
-                        </div>
-                      </div>
+        </div>
+      </div>
 
-                      {/* Results */}
-                      <div className="mt-4 grid gap-4 md:grid-cols-3 lg:grid-cols-4">
-                        <Card className="bg-gray-50">
-                          <CardHeader className="pb-2">
-                            <CardTitle className="text-sm">Total</CardTitle>
-                            <CardDescription className="text-xs">Sum over selection</CardDescription>
-                          </CardHeader>
-                          <CardContent className="pt-0">
-                            {calcRange?.from && calcRange?.to ? (
-                              <div className="text-2xl font-bold text-green-700">
-                                {formatCurrency(calcRecommendations.reduce((sum, r) => sum + (r.recommended_arr || 0), 0))}
-                              </div>
-                            ) : (
-                              <div className="text-sm text-gray-500">Select a date range.</div>
-                            )}
-                          </CardContent>
-                        </Card>
-                        <Card className="bg-gray-50">
-                          <CardHeader className="pb-2">
-                            <CardTitle className="text-sm">Per Night</CardTitle>
-                            <CardDescription className="text-xs">Average per night</CardDescription>
-                          </CardHeader>
-                          <CardContent className="pt-0">
-                            {calcRange?.from && calcRange?.to ? (
-                              <div className="text-2xl font-bold text-blue-700">
-                                {(() => {
-                                  const total = calcRecommendations.reduce((sum, r) => sum + (r.recommended_arr || 0), 0);
-                                  const days = Math.ceil((calcRange.to.getTime() - calcRange.from.getTime()) / (1000 * 60 * 60 * 24)) + 1;
-                                  return formatCurrency(total / days);
-                                })()}
-                              </div>
-                            ) : (
-                              <div className="text-sm text-gray-500">Select a date range.</div>
-                            )}
-                          </CardContent>
-                        </Card>
-
-                        <Card className="bg-gray-50">
-                          <CardHeader className="pb-2">
-                            <CardTitle className="text-sm">Total Last Year</CardTitle>
-                            <CardDescription className="text-xs">Same dates previous year</CardDescription>
-                          </CardHeader>
-                          <CardContent className="pt-0">
-                            {calcRange?.from && calcRange?.to ? (
-                              <div className="text-2xl font-bold text-emerald-700">
-                                {formatCurrency(calcRecommendationsLastYear.reduce((sum, r) => sum + (r.recommended_arr || 0), 0))}
-                              </div>
-                            ) : (
-                              <div className="text-sm text-gray-500">Select a date range.</div>
-                            )}
-                          </CardContent>
-                        </Card>
-                        <Card className="bg-gray-50">
-                          <CardHeader className="pb-2">
-                            <CardTitle className="text-sm">Per Night Last Year</CardTitle>
-                            <CardDescription className="text-xs">Average per night</CardDescription>
-                          </CardHeader>
-                          <CardContent className="pt-0">
-                            {calcRange?.from && calcRange?.to ? (
-                              <div className="text-2xl font-bold text-indigo-700">
-                                {(() => {
-                                  const total = calcRecommendationsLastYear.reduce((sum, r) => sum + (r.recommended_arr || 0), 0);
-                                  const days = Math.ceil((calcRange.to.getTime() - calcRange.from.getTime()) / (1000 * 60 * 60 * 24)) + 1;
-                                  return formatCurrency(total / days);
-                                })()}
-                              </div>
-                            ) : (
-                              <div className="text-sm text-gray-500">Select a date range.</div>
-                            )}
-                          </CardContent>
-                        </Card>
-                      </div>
-
-                      <div className="mt-4 grid gap-4 md:grid-cols-2 lg:grid-cols-2">
-                        <Card className="bg-gray-50">
-                          <CardHeader className="pb-2">
-                            <CardTitle className="text-sm">Date Flags Summary</CardTitle>
-                            <CardDescription className="text-xs">Holiday/Event/Weekend/Fasting</CardDescription>
-                          </CardHeader>
-                          <CardContent className="pt-0">
-                            <ul className="text-sm space-y-1">
-                              {(() => {
-                                if (!calcRange?.from || !calcRange?.to) return <li className="text-gray-500">Select a date range.</li>;
-                                const start = format(calcRange.from, 'yyyy-MM-dd');
-                                const end = format(calcRange.to, 'yyyy-MM-dd');
-                                const dates: string[] = [];
-                                let cur = new Date(calcRange.from);
-                                while (cur <= (calcRange.to as Date)) {
-                                  dates.push(format(cur, 'yyyy-MM-dd'));
-                                  cur.setDate(cur.getDate() + 1);
-                                }
-                                const flags: Record<string, string[]> = {};
-                                for (const d of dates) {
-                                  const day = calendarData[d] || [];
-                                  if (day.length === 0) continue;
-                                  const r = day[0];
-                                  const labels: string[] = [];
-                                  if (r.is_holiday) labels.push(r.holiday_details?.name ? `Holiday: ${r.holiday_details.name}` : 'Holiday');
-                                  if (r.is_school_holiday) labels.push('School Holiday');
-                                  if (r.is_event) labels.push(r.holiday_details?.name ? `Event: ${r.holiday_details.name}` : 'Event');
-                                  if ((r as any).is_fasting) labels.push('Fasting');
-                                  if (r.is_weekend) labels.push('Weekend');
-                                  if (labels.length) flags[d] = labels;
-                                }
-                                const items = Object.entries(flags);
-                                if (items.length === 0) return <li className="text-gray-500">No flags in range.</li>;
-                                return items.map(([d, arr]) => (
-                                  <li key={d} className="flex justify-between">
-                                    <span className="text-gray-600">{d}</span>
-                                    <span className="font-mono">{arr.join(', ')}</span>
-                                  </li>
-                                ));
-                              })()}
-                            </ul>
-                          </CardContent>
-                        </Card>
-                        
-                        <Card className="bg-gray-50">
-                          <CardHeader className="pb-2">
-                            <CardTitle className="text-sm">Date Flags Summary (Last Year)</CardTitle>
-                            <CardDescription className="text-xs">Same dates previous year</CardDescription>
-                          </CardHeader>
-                          <CardContent className="pt-0">
-                            <ul className="text-sm space-y-1">
-                              {(() => {
-                                if (!calcRange?.from || !calcRange?.to) return <li className="text-gray-500">Select a date range.</li>;
-                                const dates: string[] = [];
-                                let cur = new Date(calcRange.from);
-                                while (cur <= (calcRange.to as Date)) {
-                                  const ly = new Date(cur);
-                                  ly.setFullYear(ly.getFullYear() - 1);
-                                  dates.push(format(ly, 'yyyy-MM-dd'));
-                                  cur.setDate(cur.getDate() + 1);
-                                }
-                                const flags: Record<string, string[]> = {};
-                                for (const d of dates) {
-                                  const day = calendarData[d] || [];
-                                  if (day.length === 0) continue;
-                                  const r = day[0];
-                                  const labels: string[] = [];
-                                  if (r.is_holiday) labels.push(r.holiday_details?.name ? `Holiday: ${r.holiday_details.name}` : 'Holiday');
-                                  if (r.is_school_holiday) labels.push('School Holiday');
-                                  if (r.is_event) labels.push(r.holiday_details?.name ? `Event: ${r.holiday_details.name}` : 'Event');
-                                  if ((r as any).is_fasting) labels.push('Fasting');
-                                  if (r.is_weekend) labels.push('Weekend');
-                                  if (labels.length) flags[d] = labels;
-                                }
-                                const items = Object.entries(flags);
-                                if (items.length === 0) return <li className="text-gray-500">No flags in range.</li>;
-                                return items.map(([d, arr]) => (
-                                  <li key={d} className="flex justify-between">
-                                    <span className="text-gray-600">{d}</span>
-                                    <span className="font-mono">{arr.join(', ')}</span>
-                                  </li>
-                                ));
-                              })()}
-                            </ul>
-                          </CardContent>
-                        </Card>
-                      </div>
-                    </AccordionContent>
-                  </AccordionItem>
-                </Accordion>
-              </div>
-          </CardContent>
-        </Card>
-
-        {/* Calendar */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-lg">
-              <Calendar className="h-5 w-5" />
-              Calendar ({currentDate.getFullYear()})
-            </CardTitle>
-            <CardDescription>
-              Calendar for the current year
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="p-0">
-            {loading ? (
-              <div className="flex items-center justify-center py-12">
-                <RefreshCw className="h-8 w-8 animate-spin text-blue-500" />
-                <span className="ml-2 text-gray-600">Loading calendar data...</span>
-              </div>
-            ) : (
-              <div className="overflow-x-auto">
-                <div className="min-w-[768px] p-4">
-                  {/* Day headers */}
-                  <div className="grid grid-cols-7 gap-2 mb-3">
-                    {dayNames.map(day => (
-                      <div key={day} className="p-3 text-center font-semibold text-gray-700 text-sm bg-gray-50 rounded-lg">
-                        <span className="hidden sm:inline">{day}</span>
-                        <span className="sm:hidden">{day.slice(0, 1)}</span>
-                      </div>
-                    ))}
-                  </div>
-                  
-                  {/* Calendar grid */}
-                  <div className="grid grid-cols-7 gap-2">
-                    {calendarDays.map(day => {
-                      const dateStr = format(day, 'yyyy-MM-dd');
-                      const dayData = calendarData[dateStr] || [];
-                      const isCurrentMonth = isSameMonth(day, currentDate);
-                      const isToday = isSameDay(day, new Date());
-                      const isWeekend = day.getDay() === 0 || day.getDay() === 6;
-                      const isHoliday = dayData.some(d => d.is_holiday);
-                      const isEvent = dayData.some(d => d.is_event);
-                      const isSchoolHoliday = dayData.some(d => d.is_school_holiday);
-                      const isBridge = dayData.some(d => d.is_bridge);
-                      const holidayDuration = dayData[0]?.holiday_duration || 0;
-                      const daysOfHoliday = dayData[0]?.days_of_holiday || 0;
-                      const distanceToHoliday = dayData[0]?.distance_to_holiday || 0;
-                      
-                      // Debug logging for first few days
-                      if (day.getDate() <= 3 && isCurrentMonth) {
-                        console.log(`Day ${day.getDate()}: dateStr=${dateStr}, dayData.length=${dayData.length}`);
-                        if (dayData.length > 0) {
-                          console.log(`Day ${day.getDate()} data:`, dayData[0]);
-                        }
-                      }
-                      
-                      // Filter data by room type and arrangement
-                      let filteredData = dayData;
-                      
-                      if (roomTypeFilter.length > 0) {
-                        filteredData = filteredData.filter(d => roomTypeFilter.includes(d.room_type));
-                      }
-                      
-                      if (arrangementFilter.length > 0) {
-                        filteredData = filteredData.filter(d => arrangementFilter.includes(d.arrangement || ''));
-                      }
-                      
-                      // Compute day-level occupancy once (from first rec)
-                      const dayOcc = dayData.length > 0 ? dayData[0].recommended_occupancy : undefined;
-                      
-                      return (
-                        <CalendarDayCard
-                          key={dateStr}
-                          date={day}
-                          dayData={filteredData}
-                          isCurrentMonth={isCurrentMonth}
-                          isToday={isToday}
-                          isWeekend={isWeekend}
-                          isHoliday={isHoliday}
-                          isEvent={isEvent}
-                          isSchoolHoliday={isSchoolHoliday}
-                          isBridge={isBridge}
-                          holidayDuration={holidayDuration}
-                          daysOfHoliday={daysOfHoliday}
-                          distanceToHoliday={distanceToHoliday}
-                          dayOccupancy={dayOcc}
-                          viewMode={viewMode}
-                          onClick={() => handleDayClick(day)}
-                        />
-                      );
-                    })}
+      <div className="max-w-7xl mx-auto px-4 py-4 space-y-6">
+        
+        {/* Calculator Accordion */}
+        <div className="w-full">
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value="calculator">
+              <AccordionTrigger>
+                <div className="flex items-center gap-2 text-sm font-semibold">
+                  <Calculator className="h-4 w-4" /> Calculator
+                </div>
+              </AccordionTrigger>
+              <AccordionContent>
+                <div className="grid gap-4">
+                  {/* Selectors */}
+                  <div className="flex flex-wrap items-end gap-3">
+                    <div>
+                      <h4 className="text-sm font-semibold mb-2">Room Type</h4>
+                      <Select value={calcRoomType} onValueChange={setCalcRoomType}>
+                        <SelectTrigger className="w-40">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent className="max-h-60">
+                          <SelectItem value="All">All</SelectItem>
+                          {roomTypes.map(rt => (
+                            <SelectItem key={rt} value={rt}>{rt}</SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-semibold mb-2">Arrangement</h4>
+                      <Select value={calcArrangement} onValueChange={setCalcArrangement}>
+                        <SelectTrigger className="w-28">
+                          <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectItem value="RB">RB</SelectItem>
+                          <SelectItem value="RO">RO</SelectItem>
+                        </SelectContent>
+                      </Select>
+                    </div>
+                    {/* Date Range Picker */}
+                    <div>
+                      <h4 className="text-sm font-semibold mb-2">Date Range</h4>
+                      <DateRangePicker
+                        dateRange={calcRange}
+                        onDateRangeChange={(range) => {
+                          console.log('DateRangePicker onDateRangeChange:', range);
+                          setCalcRange(range);
+                          // Load calculator data when range changes
+                          loadCalculatorData(range);
+                        }}
+                        className="w-fit"
+                        placeholder="Pick a date range"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-            )}
-          </CardContent>
-        </Card>
 
+                {/* Results */}
+                <div className="mt-4 grid gap-4 md:grid-cols-3 lg:grid-cols-4">
+                  <Card className="bg-gray-50">
+                    <CardHeader className="pb-2">
+                      <CardTitle className="text-sm">Total</CardTitle>
+                      <CardDescription className="text-xs">Sum over selection</CardDescription>
+                    </CardHeader>
+                    <CardContent className="pt-0">
+                      {calcRange?.from && calcRange?.to ? (
+                        <div className="text-2xl font-bold text-green-700">
+                          {formatCurrency(calcRecommendations.reduce((sum, r) => sum + (r.recommended_arr || 0), 0))}
+                        </div>
+                      ) : (
+                        <div className="text-sm text-gray-500">Select a date range.</div>
+                      )}
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-gray-50">
+                    <CardHeader className="pb-2">
+                      <CardTitle className="text-sm">Per Night</CardTitle>
+                      <CardDescription className="text-xs">Average per night</CardDescription>
+                    </CardHeader>
+                    <CardContent className="pt-0">
+                      {calcRange?.from && calcRange?.to ? (
+                        <div className="text-2xl font-bold text-blue-700">
+                          {(() => {
+                            const total = calcRecommendations.reduce((sum, r) => sum + (r.recommended_arr || 0), 0);
+                            const days = Math.ceil((calcRange.to.getTime() - calcRange.from.getTime()) / (1000 * 60 * 60 * 24)) + 1;
+                            return formatCurrency(total / days);
+                          })()}
+                        </div>
+                      ) : (
+                        <div className="text-sm text-gray-500">Select a date range.</div>
+                      )}
+                    </CardContent>
+                  </Card>
+
+                  <Card className="bg-gray-50">
+                    <CardHeader className="pb-2">
+                      <CardTitle className="text-sm">Total Last Year</CardTitle>
+                      <CardDescription className="text-xs">Same dates previous year</CardDescription>
+                    </CardHeader>
+                    <CardContent className="pt-0">
+                      {calcRange?.from && calcRange?.to ? (
+                        <div className="text-2xl font-bold text-emerald-700">
+                          {formatCurrency(calcRecommendationsLastYear.reduce((sum, r) => sum + (r.recommended_arr || 0), 0))}
+                        </div>
+                      ) : (
+                        <div className="text-sm text-gray-500">Select a date range.</div>
+                      )}
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-gray-50">
+                    <CardHeader className="pb-2">
+                      <CardTitle className="text-sm">Per Night Last Year</CardTitle>
+                      <CardDescription className="text-xs">Average per night</CardDescription>
+                    </CardHeader>
+                    <CardContent className="pt-0">
+                      {calcRange?.from && calcRange?.to ? (
+                        <div className="text-2xl font-bold text-indigo-700">
+                          {(() => {
+                            const total = calcRecommendationsLastYear.reduce((sum, r) => sum + (r.recommended_arr || 0), 0);
+                            const days = Math.ceil((calcRange.to.getTime() - calcRange.from.getTime()) / (1000 * 60 * 60 * 24)) + 1;
+                            return formatCurrency(total / days);
+                          })()}
+                        </div>
+                      ) : (
+                        <div className="text-sm text-gray-500">Select a date range.</div>
+                      )}
+                    </CardContent>
+                  </Card>
+                </div>
+
+                <div className="mt-4 grid gap-4 md:grid-cols-2 lg:grid-cols-2">
+                  <Card className="bg-gray-50">
+                    <CardHeader className="pb-2">
+                      <CardTitle className="text-sm">Date Flags Summary</CardTitle>
+                      <CardDescription className="text-xs">Holiday/Event/Weekend/Fasting</CardDescription>
+                    </CardHeader>
+                    <CardContent className="pt-0">
+                      <ul className="text-sm space-y-1">
+                        {(() => {
+                          if (!calcRange?.from || !calcRange?.to) return <li className="text-gray-500">Select a date range.</li>;
+                          const start = format(calcRange.from, 'yyyy-MM-dd');
+                          const end = format(calcRange.to, 'yyyy-MM-dd');
+                          const dates: string[] = [];
+                          let cur = new Date(calcRange.from);
+                          while (cur <= (calcRange.to as Date)) {
+                            dates.push(format(cur, 'yyyy-MM-dd'));
+                            cur.setDate(cur.getDate() + 1);
+                          }
+                          const flags: Record<string, string[]> = {};
+                          for (const d of dates) {
+                            const day = calendarData[d] || [];
+                            if (day.length === 0) continue;
+                            const r = day[0];
+                            const labels: string[] = [];
+                            if (r.is_holiday) labels.push(r.holiday_details?.name ? `Holiday: ${r.holiday_details.name}` : 'Holiday');
+                            if (r.is_school_holiday) labels.push('School Holiday');
+                            if (r.is_event) labels.push(r.holiday_details?.name ? `Event: ${r.holiday_details.name}` : 'Event');
+                            if ((r as any).is_fasting) labels.push('Fasting');
+                            if (r.is_weekend) labels.push('Weekend');
+                            if (labels.length) flags[d] = labels;
+                          }
+                          const items = Object.entries(flags);
+                          if (items.length === 0) return <li className="text-gray-500">No flags in range.</li>;
+                          return items.map(([d, arr]) => (
+                            <li key={d} className="flex justify-between">
+                              <span className="text-gray-600">{d}</span>
+                              <span className="font-mono">{arr.join(', ')}</span>
+                            </li>
+                          ));
+                        })()}
+                      </ul>
+                    </CardContent>
+                  </Card>
+                  
+                  <Card className="bg-gray-50">
+                    <CardHeader className="pb-2">
+                      <CardTitle className="text-sm">Date Flags Summary (Last Year)</CardTitle>
+                      <CardDescription className="text-xs">Same dates previous year</CardDescription>
+                    </CardHeader>
+                    <CardContent className="pt-0">
+                      <ul className="text-sm space-y-1">
+                        {(() => {
+                          if (!calcRange?.from || !calcRange?.to) return <li className="text-gray-500">Select a date range.</li>;
+                          const dates: string[] = [];
+                          let cur = new Date(calcRange.from);
+                          while (cur <= (calcRange.to as Date)) {
+                            const ly = new Date(cur);
+                            ly.setFullYear(ly.getFullYear() - 1);
+                            dates.push(format(ly, 'yyyy-MM-dd'));
+                            cur.setDate(cur.getDate() + 1);
+                          }
+                          const flags: Record<string, string[]> = {};
+                          for (const d of dates) {
+                            const day = calendarData[d] || [];
+                            if (day.length === 0) continue;
+                            const r = day[0];
+                            const labels: string[] = [];
+                            if (r.is_holiday) labels.push(r.holiday_details?.name ? `Holiday: ${r.holiday_details.name}` : 'Holiday');
+                            if (r.is_school_holiday) labels.push('School Holiday');
+                            if (r.is_event) labels.push(r.holiday_details?.name ? `Event: ${r.holiday_details.name}` : 'Event');
+                            if ((r as any).is_fasting) labels.push('Fasting');
+                            if (r.is_weekend) labels.push('Weekend');
+                            if (labels.length) flags[d] = labels;
+                          }
+                          const items = Object.entries(flags);
+                          if (items.length === 0) return <li className="text-gray-500">No flags in range.</li>;
+                          return items.map(([d, arr]) => (
+                            <li key={d} className="flex justify-between">
+                              <span className="text-gray-600">{d}</span>
+                              <span className="font-mono">{arr.join(', ')}</span>
+                            </li>
+                          ));
+                        })()}
+                      </ul>
+                    </CardContent>
+                  </Card>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+
+        <div className="grid gap-4 grid-cols-1 lg:grid-cols-4">
+          {/* Calendar */}
+          <Card className="lg:col-span-3">
+            <CardHeader className="pb-2">
+              {/* Calendar {Year}*/}
+              <CardTitle className="text-sm">Calendar {currentDate.getFullYear()}</CardTitle>
+            </CardHeader>
+            <CardContent className="p-0">
+              {loading ? (
+                <div className="flex items-center justify-center py-12">
+                  <RefreshCw className="h-8 w-8 animate-spin text-blue-500" />
+                  <span className="ml-2 text-gray-600">Loading calendar data...</span>
+                </div>
+              ) : (
+                <div className="overflow-x-auto">
+                  <div className="min-w-[768px] p-4">
+                    {/* Day headers */}
+                    <div className="grid grid-cols-7 gap-2 mb-3">
+                      {dayNames.map(day => (
+                        <div key={day} className="p-3 text-center font-semibold text-gray-700 text-sm bg-gray-50 rounded-lg">
+                          <span className="hidden sm:inline">{day}</span>
+                          <span className="sm:hidden">{day.slice(0, 1)}</span>
+                        </div>
+                      ))}
+                    </div>
+                    
+                    {/* Calendar grid */}
+                    <div className="grid grid-cols-7 gap-2">
+                      {calendarDays.map(day => {
+                        const dateStr = format(day, 'yyyy-MM-dd');
+                        const dayData = calendarData[dateStr] || [];
+                        const isCurrentMonth = isSameMonth(day, currentDate);
+                        const isToday = isSameDay(day, new Date());
+                        const isWeekend = day.getDay() === 0 || day.getDay() === 6;
+                        const isHoliday = dayData.some(d => d.is_holiday);
+                        const isEvent = dayData.some(d => d.is_event);
+                        const isSchoolHoliday = dayData.some(d => d.is_school_holiday);
+                        const isBridge = dayData.some(d => d.is_bridge);
+                        const holidayDuration = dayData[0]?.holiday_duration || 0;
+                        const daysOfHoliday = dayData[0]?.days_of_holiday || 0;
+                        const distanceToHoliday = dayData[0]?.distance_to_holiday || 0;
+                        
+                        // Debug logging for first few days
+                        if (day.getDate() <= 3 && isCurrentMonth) {
+                          console.log(`Day ${day.getDate()}: dateStr=${dateStr}, dayData.length=${dayData.length}`);
+                          if (dayData.length > 0) {
+                            console.log(`Day ${day.getDate()} data:`, dayData[0]);
+                          }
+                        }
+                        
+                        // Filter data by room type and arrangement
+                        let filteredData = dayData;
+                        
+                        if (roomTypeFilter.length > 0) {
+                          filteredData = filteredData.filter(d => roomTypeFilter.includes(d.room_type));
+                        }
+                        
+                        if (arrangementFilter.length > 0) {
+                          filteredData = filteredData.filter(d => arrangementFilter.includes(d.arrangement || ''));
+                        }
+                        
+                        // Compute day-level occupancy once (from first rec)
+                        const dayOcc = dayData.length > 0 ? dayData[0].recommended_occupancy : undefined;
+                        
+                        return (
+                          <CalendarDayCard
+                            key={dateStr}
+                            date={day}
+                            dayData={filteredData}
+                            isCurrentMonth={isCurrentMonth}
+                            isToday={isToday}
+                            isWeekend={isWeekend}
+                            isHoliday={isHoliday}
+                            isEvent={isEvent}
+                            isSchoolHoliday={isSchoolHoliday}
+                            isBridge={isBridge}
+                            holidayDuration={holidayDuration}
+                            daysOfHoliday={daysOfHoliday}
+                            distanceToHoliday={distanceToHoliday}
+                            dayOccupancy={dayOcc}
+                            viewMode={viewMode}
+                            onClick={() => handleDayClick(day)}
+                          />
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+
+          {/* Date Flags Summary */}
+          <Card className="bg-gray-50">
+            <CardHeader className="pb-2">
+              <div className="flex items-center justify-between">
+                <div>
+                  <CardTitle className="text-sm">Date Flags</CardTitle>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-medium">Analysis</span>
+                  <Switch
+                    checked={!analysisMode}
+                    onCheckedChange={(checked) => setAnalysisMode(!checked)}
+                  />
+                  <span className="text-xs font-medium">All Flags</span>
+                </div>
+              </div>
+            </CardHeader>
+            <CardContent className="p-0">
+              <div className="text-sm space-y-1">
+                {(() => {
+                  const monthStart = startOfMonth(currentDate);
+                  const monthEnd = endOfMonth(currentDate);
+                  const dates: string[] = [];
+                  let cur = new Date(monthStart);
+                  while (cur <= monthEnd) {
+                    dates.push(format(cur, 'yyyy-MM-dd'));
+                    cur.setDate(cur.getDate() + 1);
+                  }
+
+                  if (analysisMode) {
+                    // Analysis mode - show manual analysis as date ranges, split by month
+                    const analysisEntries = manualAnalysisData.filter(entry => {
+                      const fromDate = new Date(entry.from);
+
+                      const untilDate = new Date(entry.until);
+                      return fromDate <= monthEnd && untilDate >= monthStart;
+                    }).flatMap(entry => {
+                      // Split entries that span across months
+                      const currentMonth = currentDate.getMonth();
+                      const currentYear = currentDate.getFullYear();
+                      const monthStartNew = new Date(currentYear, currentMonth, 1);
+                      const monthEndNew = new Date(currentYear, currentMonth + 1, 0);
+                      
+                      const fromDate = new Date(entry.from);
+                      const untilDate = new Date(entry.until);
+                      
+                      // If entry is entirely within current month
+                      if (fromDate >= monthStartNew && untilDate <= monthEndNew) {
+                        return [entry];
+                      }
+                      
+                      // If entry spans multiple months, create separate entries for current month parts
+                      const parts = [];
+                      
+                      // Start of entry overlaps with current month
+                      if (fromDate <= monthEndNew && untilDate >= monthStartNew) {
+                        const currentMonthStart = new Date(Math.max(fromDate.getTime(), monthStartNew.getTime()));
+                        const currentMonthEnd = new Date(Math.min(untilDate.getTime(), monthEndNew.getTime()));
+                        
+                        parts.push({
+                          ...entry,
+                          from: format(currentMonthStart, 'yyyy-MM-dd'),
+                          until: format(currentMonthEnd, 'yyyy-MM-dd')
+                        });
+                      }
+                      
+                      return parts;
+                    });
+                    
+                    if (analysisEntries.length === 0) return <div className="text-gray-500">No analysis in range.</div>;
+                    
+                    return analysisEntries.map((analysis, index) => {
+                      const fromDay = format(new Date(analysis.from), 'dd');
+                      const untilDay = format(new Date(analysis.until), 'dd');
+                      const rangeText = fromDay === untilDay ? fromDay : `${fromDay}-${untilDay}`;
+                      
+                      return (
+                        <div key={index} className="grid grid-cols-[60px_60px_1fr] py-1">
+                          <span className="text-gray-600 text-center font-small">{rangeText}</span>
+                          <span className={`inline-block px-2 py-1 rounded text-xs font-medium ${
+                            analysis.predictions === 'high' ? 'bg-green-100 text-green-800' :
+                            analysis.predictions === 'Low' || analysis.predictions === 'low' ? 'bg-red-100 text-red-800' :
+                            'bg-yellow-100 text-yellow-800'
+                          }`}>
+                            {analysis.predictions}
+                          </span>
+                          <span className="font-mono text-xs">{analysis.description || ''}</span>
+                        </div>
+                      );
+                    });
+                  } else {
+                    // Original mode - show flags
+                    const flags: Record<string, string[]> = {};
+                    for (const d of dates) {
+                      const day = calendarData[d] || [];
+                      if (day.length === 0) continue;
+                      const r = day[0];
+                      const labels: string[] = [];
+                      if (r.is_holiday) labels.push(r.holiday_details?.name ? `Holiday: ${r.holiday_details.name}` : 'Near Holiday');
+                      if (r.is_event) labels.push(r.holiday_details?.name ? `Event: ${r.holiday_details.name}` : 'Event');
+                      if (labels.length) flags[d] = labels;
+                    }
+                    const items = Object.entries(flags);
+                    if (items.length === 0) return <div className="text-gray-500">No flags in range.</div>;
+                    return items.map(([d, arr]) => (
+                      <div key={d} className="flex justify-between items-center py-1">
+                        <span className="text-gray-600 w-8 text-center font-medium">{new Date(d).getDate()}</span>
+                        <span className="font-mono text-xs flex-1 ml-4">{arr.join(', ')}</span>
+                      </div>
+                    ));
+                  }
+                })()}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        <div className="grid gap-4 grid-cols-1 lg:grid-cols-4">
         {/* Last Year Calendar */}
-        <Card>
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-lg">
-              <Calendar className="h-4 w-4" />
-              Last Year Calendar ({currentDate.getFullYear() - 1})
-            </CardTitle>
-            <CardDescription>
-              Same period from the previous year for comparison
-            </CardDescription>
+        <Card className="lg:col-span-3">
+          <CardHeader className="pb-2">
+            <CardTitle className="text-sm">Calendar {currentDate.getFullYear() - 1}</CardTitle>
           </CardHeader>
           <CardContent>
             {loading ? (
@@ -875,6 +1034,67 @@ export function CalendarFirstDashboard() {
           </CardContent>
         </Card>
 
+        {/* Date Flags Summary (Last Year) */}
+        <Card className="bg-gray-50">
+          <CardHeader className="pb-2">
+            <div className="flex items-center justify-between">
+              <div>
+                <CardTitle className="text-sm">Date Flags</CardTitle>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-medium">Analysis</span>
+                <Switch
+                  checked={!analysisMode}
+                  onCheckedChange={(checked) => setAnalysisMode(!checked)}
+                />
+                <span className="text-xs font-medium">All Flags</span>
+              </div>
+            </div>
+          </CardHeader>
+          <CardContent className="pt-0">
+            <div className="text-sm space-y-1">
+              {(() => {
+                // Use monthly range for last year
+                const lastYearDate = new Date(currentDate.getFullYear() - 1, currentDate.getMonth());
+                const monthStart = startOfMonth(lastYearDate);
+                const monthEnd = endOfMonth(lastYearDate);
+                const dates: string[] = [];
+                let cur = new Date(monthStart);
+                while (cur <= monthEnd) {
+                  dates.push(format(cur, 'yyyy-MM-dd'));
+                  cur.setDate(cur.getDate() + 1);
+                }
+
+                if (analysisMode) {
+                  // Analysis mode - show a message that analysis is not available for last year
+                  return <div className="text-gray-500">Manual analysis is only available for 2026.</div>;
+                } else {
+                  // Original mode - show flags
+                  const flags: Record<string, string[]> = {};
+                  for (const d of dates) {
+                    const day = calendarDataLastYear[d] || [];
+                    if (day.length === 0) continue;
+                    const r = day[0];
+                    const labels: string[] = [];
+                    if (r.is_holiday) labels.push(r.holiday_details?.name ? `Holiday: ${r.holiday_details.name}` : 'Near Holiday');
+                    if (r.is_event) labels.push(r.holiday_details?.name ? `Event: ${r.holiday_details.name}` : 'Event');
+                    if (labels.length) flags[d] = labels;
+                  }
+                  const items = Object.entries(flags);
+                  if (items.length === 0) return <div className="text-gray-500">No flags in range.</div>;
+                  return items.map(([d, arr]) => (
+                    <div key={d} className="flex justify-between items-center py-1">
+                      <span className="text-gray-600 w-8 text-center font-medium">{new Date(d).getDate()}</span>
+                      <span className="font-mono text-xs flex-1 ml-4">{arr.join(', ')}</span>
+                    </div>
+                  ));
+                }
+              })()}
+            </div>
+          </CardContent>
+        </Card>
+        </div>
+
         {/* Legend */}
         <Card>
           <CardContent className="p-4">
@@ -885,27 +1105,15 @@ export function CalendarFirstDashboard() {
                   <div className="flex flex-wrap gap-4 text-xs">
                     <div className="flex items-center gap-1">
                       <div className="w-3 h-3 bg-red-50 border border-red-300 rounded"></div>
-                      <span>Local Event</span>
+                      <span>Wisuda</span>
                     </div>
                     <div className="flex items-center gap-1">
                       <div className="w-3 h-3 bg-teal-50 border border-teal-300 rounded"></div>
                       <span>Fasting</span>
                     </div>
                     <div className="flex items-center gap-1">
-                      <div className="w-3 h-3 bg-yellow-50 border border-yellow-200 rounded"></div>
-                      <span>National Holiday</span>
-                    </div>
-                    <div className="flex items-center gap-1">
                       <div className="w-3 h-3 bg-purple-50 border border-purple-200 rounded"></div>
                       <span>School Holiday</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <div className="w-3 h-3 bg-orange-50 border border-orange-300 rounded"></div>
-                      <span>Bridge Day</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <div className="w-3 h-3 bg-gray-50 border border-gray-200 rounded"></div>
-                      <span>Weekend</span>
                     </div>
                     <div className="flex items-center gap-1">
                       <div className="w-3 h-3 bg-blue-50 border-2 border-blue-500 rounded"></div>
@@ -995,10 +1203,6 @@ export function CalendarFirstDashboard() {
                               <div className="p-2 bg-white rounded border">
                                 <span className="block text-gray-600">Event</span>
                                 <span className="font-mono font-semibold">{selectedDay.recommendations[0].is_event ? 'Yes' : 'No'}</span>
-                              </div>
-                              <div className="p-2 bg-white rounded border">
-                                <span className="block text-gray-600">Bridge Day</span>
-                                <span className="font-mono font-semibold">{selectedDay.recommendations[0].is_bridge ? 'Yes' : 'No'}</span>
                               </div>
                               <div className="p-2 bg-white rounded border">
                                 <span className="block text-gray-600">Block Length (days)</span>
